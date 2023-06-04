@@ -4,7 +4,7 @@
             <div class="carousel-inner">
            
                 <div class="carousel-item">
-                    <img class="w-100" src="{{ asset('template/img/home1.png') }}" alt="Image">
+                    <img class="w-100" src="{{ asset('template/img/home2.png') }}" alt="Image">
                     <div class="carousel-caption d-flex flex-column align-items-center justify-content-center">
                         <div class="p-3" style="max-width: 900px;">
                             <h3 class="text-white mb-3 animated slideInDown">Selamat Datang Di</h3>
@@ -24,7 +24,7 @@
                     </div>
                 </div>
                 <div class="carousel-item active">
-                    <img class="w-100" src="{{ asset('template/img/home2.png') }}" alt="Image">
+                    <img class="w-100" src="{{ asset('template/img/beranda.png') }}" alt="Image">
                     <div class="carousel-caption d-flex flex-column align-items-center justify-content-center">
                         <div class="p-3" style="max-width: 900px;">
                         <h3 class="text-white mb-3 animated slideInDown">Selamat Datang Di</h3>
