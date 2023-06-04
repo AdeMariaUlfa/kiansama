@@ -130,33 +130,33 @@
                 <div class="col-lg-4 wow slideInUp" data-wow-delay="0.3s" style="visibility: visible; animation-delay: 0.3s; animation-name: slideInUp;">
                     <div class="team-item bg-light rounded overflow-hidden">
                         <div class="team-img position-relative overflow-hidden">
-                            <img class="img-fluid w-100" src="{{ asset('template/img/team-1.jpg') }}" alt="">
+                            <img class="img-fluid w-100" src="{{ asset('template/img/service1.png') }}" alt="">
                         </div>
                         <div class="text-center py-4">
-                            <h4 class="text-primary">Full Name</h4>
-                            <p class="text-uppercase m-0">Designation</p>
+                            <h4 class="text-primary">Jargas Aceh 2021</h4>
+                            <p class="text-uppercase m-0">- Pekerjaan Jaringan Gas Bumi Untuk Rumah Tangga -</p>
                         </div>
                     </div>
                 </div>
                 <div class="col-lg-4 wow slideInUp" data-wow-delay="0.6s" style="visibility: visible; animation-delay: 0.6s; animation-name: slideInUp;">
                     <div class="team-item bg-light rounded overflow-hidden">
                         <div class="team-img position-relative overflow-hidden">
-                            <img class="img-fluid w-100" src="{{ asset('template/img/team-1.jpg') }}" alt="">
+                            <img class="img-fluid w-100" src="{{ asset('template/img/service2.png') }}" alt="">
                         </div>
                         <div class="text-center py-4">
-                            <h4 class="text-primary">Full Name</h4>
-                            <p class="text-uppercase m-0">Designation</p>
+                            <h4 class="text-primary">Jargas Banggai 2021</h4>
+                            <p class="text-uppercase m-0">- Pekerjaan Jaringan Gas Bumi Untuk Rumah Tangga -</p>
                         </div>
                     </div>
                 </div>
                 <div class="col-lg-4 wow slideInUp" data-wow-delay="0.9s" style="visibility: visible; animation-delay: 0.9s; animation-name: slideInUp;">
                     <div class="team-item bg-light rounded overflow-hidden">
                         <div class="team-img position-relative overflow-hidden">
-                            <img class="img-fluid w-100" src="{{ asset('template/img/team-1.jpg') }}" alt="">
+                            <img class="img-fluid w-100" src="{{ asset('template/img/service3.png') }}" alt="">
                         </div>
                         <div class="text-center py-4">
-                            <h4 class="text-primary">Full Name</h4>
-                            <p class="text-uppercase m-0">Designation</p>
+                            <h4 class="text-primary">Turbin Meter 2021</h4>
+                            <p class="text-uppercase m-0">- Pekerjaan Turbin Meter TRZ03 K di PLN Belawan -</p>
                         </div>
                     </div>
                 </div>
