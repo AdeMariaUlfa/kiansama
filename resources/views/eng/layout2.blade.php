@@ -45,7 +45,7 @@
         <div class="row gx-0">
             <div class="col-lg-8 text-center text-lg-start mb-2 mb-lg-0">
                 <div class="d-inline-flex align-items-center" style="height: 45px;">
-                    <small class="me-3 text-light"><i class="fa fa-map-marker-alt me-2"></i>Jatiluhur, Jatiasih, Kota Bekasi, Jawa Barat</small>
+                    <small class="me-3 text-light"><i class="fa fa-map-marker-alt me-2"></i>Jatiluhur, Jatiasih, Bekasi City, West Java</small>
                     <small class="me-3 text-light"><i class="fa fa-phone-alt me-2"></i>(021) 82748249</small>
                     <small class="text-light"><i class="fa fa-clock me-2"></i>8AM-5PM</small>
                 </div>
@@ -58,7 +58,7 @@
                     <a class="btn btn-sm btn-outline-light btn-sm-square rounded-circle me-2" href=""><img src="{{ asset('template/img/ina.jpg') }}" alt="" width="25" height="25"></a> -->
                 </div>
                 <div class="change-language " title="Change Language">
-							<a href="/home" class="language en"></a>
+							<a href="/" class="language id"></a>
 				</div>
             </div>
         </div>
@@ -77,34 +77,34 @@
             </button>
             <div class="collapse navbar-collapse" id="navbarCollapse">
                 <div class="navbar-nav ms-auto py-0">
-                    <a href="/" class="nav-item nav-link active " style="color:#b97d29;">Beranda</a>
+                    <a href="/home" class="nav-item nav-link active " style="color:#b97d29;">Home</a>
                     <div class="nav-item dropdown">
-                        <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown" style="color:#b97d29;">Tentang Kami</a>
+                        <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown" style="color:#b97d29;">About Us</a>
                         <div class="dropdown-menu m-0">
-                            <a href="/profil" class="dropdown-item" style="color:#b97d29;">Profil Kami</a>
-                            <a href="/profil-bisnis" class="dropdown-item" style="color:#b97d29;">Bisnis</a>
-                            <a href="/profil-struktur" class="dropdown-item" style="color:#b97d29;">Struktur Perusahaan</a>
-                            <a href="/profil-direksi" class="dropdown-item" style="color:#b97d29;">Dewan Direksi</a>
-                            <a href="/profil-komisaris" class="dropdown-item" style="color:#b97d29;">Dewan Komisaris</a>
+                            <a href="#" class="dropdown-item" style="color:#b97d29;">Our Profile</a>
+                            <a href="#" class="dropdown-item" style="color:#b97d29;">Business</a>
+                            <a href="#" class="dropdown-item" style="color:#b97d29;">Company Structure</a>
+                            <a href="#" class="dropdown-item" style="color:#b97d29;">Board of Directors</a>
+                            <a href="#" class="dropdown-item" style="color:#b97d29;">Board of Commissioners</a>
                         </div>
                     </div>
-                    <a href="/experience" class="nav-item nav-link" style="color:#b97d29;">Pengadaan</a>
+                    <a href="#" class="nav-item nav-link" style="color:#b97d29;">Procurement</a>
                     <div class="nav-item dropdown">
                         <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown" style="color:#b97d29;">Investor</a>
                         <div class="dropdown-menu m-0">
-                            <a href="/profil" class="dropdown-item" style="color:#b97d29;">Info Investor</a>
-                            <a href="/profil-bisnis" class="dropdown-item" style="color:#b97d29;">Laporan Tahunan & Laporan Keuangan</a>
-                            <a href="/profil-struktur" class="dropdown-item" style="color:#b97d29;">Pemegang Saham</a>
-                            <a href="/profil-direksi" class="dropdown-item" style="color:#b97d29;">Sekretaris Perseroan</a>
-                            <a href="/profil-komisaris" class="dropdown-item" style="color:#b97d29;">Rapat Umum Pemegang Saham</a>
-                            <a href="/profil-komisaris" class="dropdown-item" style="color:#b97d29;">Keterbukaan Informasi</a>
-                            <a href="/profil-komisaris" class="dropdown-item" style="color:#b97d29;">Ikhtisar Data Keuangan</a> 
+                            <a href="#" class="dropdown-item" style="color:#b97d29;">Investor Info</a>
+                            <a href="#" class="dropdown-item" style="color:#b97d29;">Annual Report & Financial Report</a>
+                            <a href="#" class="dropdown-item" style="color:#b97d29;">Shareholders</a>
+                            <a href="#" class="dropdown-item" style="color:#b97d29;">Corporate Secretary</a>
+                            <a href="#" class="dropdown-item" style="color:#b97d29;">General Meeting of Shareholders</a>
+                            <a href="#" class="dropdown-item" style="color:#b97d29;">Information Disclosure</a>
+                            <a href="#" class="dropdown-item" style="color:#b97d29;">Financial Data Overview</a> 
                         </div>
                     </div>
-                    <a href="/gallery" class="nav-item nav-link" style="color:#b97d29;">Karir</a>
-                    <a href="/product" class="nav-item nav-link" style="color:#b97d29;">Berita</a>
-                    <a href="/kontak" class="nav-item nav-link" style="color:#b97d29;">Kontak Kami</a>
-                    <a href="/gallery" class="nav-item nav-link" style="color:#b97d29;">Login</a>
+                    <a href="#" class="nav-item nav-link" style="color:#b97d29;">Career</a>
+                    <a href="#" class="nav-item nav-link" style="color:#b97d29;">News</a>
+                    <a href="#" class="nav-item nav-link" style="color:#b97d29;">Contact Us</a>
+                    <a href="#" class="nav-item nav-link" style="color:#b97d29;">Login</a>
                 </div>
                 <!-- <a href="https://htmlcodex.com/startup-company-website-template" class="btn btn-primary py-2 px-4 ms-3">Download Pro Version</a> -->
             </div>
@@ -140,10 +140,10 @@
 		<div class="container">
 			<div class="row">
 				<div class="col-md-8">
-				   <p>PT. KSM didirikan pada tahun 2018, perusahaan ini bergerak dalam bidang Perdagangan, Pembangunan, Perindustrian, Jasa, dan Transportasi. Saat ini fokus utamanya adalah pekerjaan konstruksi yang meliputi konstruksi pengolahan dan penyimpanan barang migas, instalasi migas, instalasi mekanikal, dan instalasi kelistrikan</p>
+				   <p>PT. KSM was founded in 2018, this company is engaged in trade, development, industry, services and transportation. Currently the main focus is construction work which includes the construction of processing and storage of oil and gas goods, oil and gas installations, mechanical installations, and electrical installations.</p>
 				</div>
 				<div class="col-md-4">
-				   <a class="btn btn-lg btn-dark btn-block" href="/kontak"> Hubungi Kami </a>
+				   <a class="btn btn-lg btn-dark btn-block" href="/contact"> Contact Us </a>
 				</div>
 			</div>
 		</div>
@@ -156,11 +156,11 @@
                     <div class="row gx-5">
                         <div class="col-lg-4 col-md-12 pt-5 mb-5">
                             <div class="section-title section-title-sm position-relative pb-3 mb-4">
-                                <h3 class="text-light mb-0">Hubungi Kami</h3>
+                                <h3 class="text-light mb-0">Contact Us</h3>
                             </div>
                             <div class="d-flex mb-2">
                                 <i class="bi bi-geo-alt text-primary me-2"></i>
-                                <p class="mb-0">Jatiluhur, Jatiasih, Kota Bekasi, Jawa Barat</p>
+                                <p class="mb-0">Jatiluhur, Jatiasih, Bekasi City, West Java</p>
                             </div>
                             <div class="d-flex mb-2">
                                 <i class="bi bi-clock text-primary me-2"></i>
@@ -182,12 +182,12 @@
                                 <h3 class="text-light mb-0">Tautan Cepat</h3>
                             </div>
                             <div class="link-animated d-flex flex-column justify-content-start">
-                                <a class="text-light mb-2" href="#"><i class="bi bi-arrow-right text-primary me-2"></i>Beranda</a>
-                                <a class="text-light mb-2" href="#"><i class="bi bi-arrow-right text-primary me-2"></i>Profil Kami</a>
-                                <a class="text-light mb-2" href="#"><i class="bi bi-arrow-right text-primary me-2"></i>Pengadaan</a>
-                                <a class="text-light mb-2" href="#"><i class="bi bi-arrow-right text-primary me-2"></i>Investor</a>
-                                <a class="text-light mb-2" href="#"><i class="bi bi-arrow-right text-primary me-2"></i>Berita</a>
-                                <a class="text-light" href="#"><i class="bi bi-arrow-right text-primary me-2"></i>Karir</a>
+                                <a class="text-light mb-2" href="#"><i class="bi bi-arrow-right text-primary me-2"></i>Home</a>
+                                <a class="text-light mb-2" href="#"><i class="bi bi-arrow-right text-primary me-2"></i>Our Profile</a>
+                                <a class="text-light mb-2" href="#"><i class="bi bi-arrow-right text-primary me-2"></i>Procurement</a>
+                                <a class="text-light mb-2" href="#"><i class="bi bi-arrow-right text-primary me-2"></i>Investors</a>
+                                <a class="text-light mb-2" href="#"><i class="bi bi-arrow-right text-primary me-2"></i>News</a>
+                                <a class="text-light" href="#"><i class="bi bi-arrow-right text-primary me-2"></i>Career</a>
                             </div>
                         </div>
                         <div class="col-lg-4 col-md-12 pt-0 pt-lg-5 mb-5">
@@ -195,12 +195,12 @@
                                 <h3 class="text-light mb-0">Tautan Populer</h3>
                             </div>
                             <div class="link-animated d-flex flex-column justify-content-start">
-                            <a class="text-light mb-2" href="#"><i class="bi bi-arrow-right text-primary me-2"></i>Beranda</a>
-                                <a class="text-light mb-2" href="#"><i class="bi bi-arrow-right text-primary me-2"></i>Profil Kami</a>
-                                <a class="text-light mb-2" href="#"><i class="bi bi-arrow-right text-primary me-2"></i>Pengadaan</a>
-                                <a class="text-light mb-2" href="#"><i class="bi bi-arrow-right text-primary me-2"></i>Berita</a>
-                                <a class="text-light mb-2" href="#"><i class="bi bi-arrow-right text-primary me-2"></i>Investor</a>
-                                <a class="text-light" href="#"><i class="bi bi-arrow-right text-primary me-2"></i>Karir</a>
+                            <a class="text-light mb-2" href="#"><i class="bi bi-arrow-right text-primary me-2"></i>Home</a>
+                                <a class="text-light mb-2" href="#"><i class="bi bi-arrow-right text-primary me-2"></i>Our Profile</a>
+                                <a class="text-light mb-2" href="#"><i class="bi bi-arrow-right text-primary me-2"></i>Procurement</a>
+                                <a class="text-light mb-2" href="#"><i class="bi bi-arrow-right text-primary me-2"></i>Investors</a>
+                                <a class="text-light mb-2" href="#"><i class="bi bi-arrow-right text-primary me-2"></i>News</a>
+                                <a class="text-light" href="#"><i class="bi bi-arrow-right text-primary me-2"></i>Career</a>
                             </div>
                         </div>
                     </div>
@@ -212,7 +212,7 @@
         <div class="container text-center">
             <div class="row justify-content-end">
                     <div class="d-flex align-items-center justify-content-center" style="height: 75px;">
-                        <p class="mb-0">&copy; <a class="text-white border-bottom" href="#">Kian Santang Muliatama</a>. Seluruh hak cipta. 
+                        <p class="mb-0">&copy; <a class="text-white border-bottom" href="#">Kian Santang Muliatama</a>. All rights reserved. 
                         </p>
                     </div>
             </div>

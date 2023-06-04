@@ -20,7 +20,7 @@
                         <div class="row no-gutters">
                             <div class="col-md-4">
                                 <div class="image-cont">
-                                <img src="{{ asset('template/img/dewan3.jpg') }}" alt="" style="width:172px; height:258px;">
+                                <img src="{{ asset('template/img/dewan4.jpg') }}" alt="" style="width:172px; height:258px;">
                                 </div>
                             </div>
                             <div class="col-md-8">
@@ -41,16 +41,16 @@
                         <div class="row no-gutters">
                             <div class="col-md-4">
                                 <div class="image-cont">
-                                <img src="{{ asset('template/img/dewan4.jpg') }}" alt="" style="width:172px; height:258px;">
+                                <img src="{{ asset('template/img/dewan5.jpg') }}" alt="" style="width:172px; height:258px;">
                                 </div>
                             </div>
                             <div class="col-md-8">
                                 <div class="card-body pt-0"><br>
-                                    <h2 class="card-title mb-1">Cahyo Triyogo</h2>
-                                    <h5 class="sub-title">Komisaris</h5>
+                                    <h2 class="card-title mb-1">Richard Leonardus Adikarta</h2>
+                                    <h5 class="sub-title">Komisaris Independen</h5>
                                     <p class="card-text">
-                                    Alamat	: Jl. Alam III Blok D No. 92 Villa Ilhami RT/RW. 004/013, Kel. Kelapa Dua, Kec. Kelapa Dua<br>
-                                    No. Hp	: +62 811-9100-065
+                                    Alamat	: Jl. Kedoya Sel., Kebon Jeruk, Jakarta Barat, DKI Jakarta 11520<br>
+                                    No. Hp	: -
                                     </p>
                                 </div>
                             </div>
@@ -64,51 +64,7 @@
                         <div class="row no-gutters">
                             <div class="col-md-4">
                                 <div class="image-cont">
-                                <img src="{{ asset('template/img/dewan5.jpg') }}" alt="" style="width:172px; height:258px;">
-                                </div>
-                            </div>
-                            <div class="col-md-8">
-                                <div class="card-body pt-0"><br>
-                                    <h2 class="card-title mb-1">Edy Nurhamid Amin</h2>
-                                    <h5 class="sub-title">Komisaris</h5>
-                                    <p class="card-text">
-                                    Alamat	: Jl. Seroja No. 43 RT/RW. 001/006, Kel. Kebon Jeruk Kec. Kebon Jeruk<br>
-                                    No. Hp	: +62 812-1225-0004
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-sm-6">
-                    <div class="card">
-                        <div class="row no-gutters">
-                            <div class="col-md-4">
-                                <div class="image-cont">
                                 <img src="{{ asset('template/img/dewan6.jpg') }}" alt="" style="width:172px; height:258px;">
-                                </div>
-                            </div>
-                            <div class="col-md-8">
-                                <div class="card-body pt-0"><br>
-                                    <h2 class="card-title mb-1">Sigit Indra Gunawan</h2>
-                                    <h5 class="sub-title">Komisaris</h5>
-                                    <p class="card-text">
-                                    Alamat	: Perum Jatijajar Blok C. 11 No. 08 RT/RW. 004/011, Kel. Jatijajar, Kec. Tapos<br>
-                                    No. Hp	: +62 813-1812-9575
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div><br>
-            <div class="row">
-                <div class="col-sm-6">
-                    <div class="card">
-                        <div class="row no-gutters">
-                            <div class="col-md-4">
-                                <div class="image-cont">
-                                <img src="{{ asset('template/img/dewan7.jpg') }}" alt="" style="width:172px; height:258px;">
                                 </div>
                             </div>
                             <div class="col-md-8">
@@ -124,7 +80,7 @@
                         </div>
                     </div>
                 </div>
-            </div>
+               
         </div>
         </div>
         </div>

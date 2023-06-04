@@ -18,7 +18,7 @@
                 <h1 class="mb-0">PT KIAN SANTANG MULIATAMA</h1>
             </div>
             <div class="row">
-            <img src="{{ asset('template/img/struktur.jpeg') }}" alt="">
+            <img src="{{ asset('template/img/struktur.png') }}" alt="">
             </div>
         </div>
     </div>

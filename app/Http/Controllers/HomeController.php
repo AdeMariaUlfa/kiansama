@@ -26,4 +26,15 @@ class HomeController extends Controller
    {
     return view('strukturPerusahaan');
    }
+   public function kontakKami()
+   {
+    return view('kontakKami');
+   }
+
+
+   // view page bahasa inggris
+   public function home()
+   {
+    return view('eng.home');
+   }
 }

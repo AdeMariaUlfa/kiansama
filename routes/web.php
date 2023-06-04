@@ -1,7 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
-
+use App\Http\Controllers\HomeController;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -13,11 +13,16 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+Route::get('/', function () {return view('welcome');});
+
 Route::get('/profil', function () {return view('profilKami');});
 Route::get('/profil-bisnis', function () {return view('bisnisKami');});
 Route::get('/profil-direksi', function () {return view('dewanDireksi');});
 Route::get('/profil-komisaris', function () {return view('dewanKomisaris');});
 Route::get('/profil-struktur', function () {return view('strukturPerusahaan');});
+
+Route::get('/kontak', function () {return view('kontakKami');});
+
+
+// link route english
+Route::get('/home', [HomeController::class, 'home'])->name('home');

@@ -80,7 +80,7 @@ h6,
 
 /*** Button ***/
 .btn {
-    font-family: 'Roboto';
+    font-family: 'Aileron';
     font-weight: 600;
     transition: .5s;
 }
@@ -125,7 +125,7 @@ h6,
 
 /*** Navbar ***/
 .navbar-dark .navbar-nav .nav-link {
-    font-family: 'Roboto';
+    font-family: 'Aileron';
     position: relative;
     margin-left: 25px;
     padding: 35px 0;
@@ -221,7 +221,7 @@ h6,
     left: 0;
     right: 0;
     bottom: 0;
-    background: rgba(9, 30, 62, .7);
+    background: rgb(167 103 48 / 60%);
     z-index: 1;
 }
 
@@ -493,4 +493,60 @@ h6,
 
 .ch-blog-content{
     margin-bottom:30px; 
+}
+.touch-line:before {
+    position: absolute;
+    content: "";
+    z-index: -1;
+    left: 0;
+    top: -46px;
+    bottom: auto;
+    right: auto;
+    z-index: -1;
+    width: 100%;
+    height: 50px;
+    background-size: cover;
+    background-position: 50% 50%;
+    background-image: url(../img/bg-bdr2.png);
+}
+.touch-line {
+    padding: 40px 0px;
+    background: #FD9E24;
+    position: relative;
+    margin-top: 90px;
+}
+.change-language {
+    position: absolute;
+    right: 8px;
+    top: -22px;
+    width: 40px;
+    height: 60px;
+    background-color: var(--dark-blue-2);
+    text-align: center;
+    border-radius: 0px 0px 20px 20px;
+    cursor: pointer;
+    transition: 100ms ease-in-out;
+    box-shadow: 0px 5px 5px #e68916;
+}
+.change-language .language.en {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: #fff;
+    display: inline-block;
+    margin-top: 25px;
+    background-image: url(../img/flag-uk.png);
+    background-size: 100%;
+    border: 2px solid #fff;
+}
+.change-language .language.id {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: #fff;
+    display: inline-block;
+    margin-top: 25px;
+    background-image: url(../img/flag-id.png);
+    background-size: 100%;
+    border: 2px solid #fff;
 }

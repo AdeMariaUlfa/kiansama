@@ -15,7 +15,7 @@
         <div class="container py-5">
             <div class="section-title text-center position-relative pb-3 mb-5 mx-auto" style="max-width: 600px;">
                 <h5 class="fw-bold text-primary text-uppercase">PELAYANAN KAMI</h5>
-                <h1 class="mb-0">Perdagangan, Konstruksi, Industri, Jasa, dan Transportasi</h1>
+                <h1 class="mb-0">Perdagangan, Konstruksi, dan Pelayanan</h1>
             </div>
             <div class="row g-5">
                 <div class="col-lg-4 col-md-6 wow zoomIn" data-wow-delay="0.3s" style="visibility: visible; animation-delay: 0.3s; animation-name: zoomIn;">
