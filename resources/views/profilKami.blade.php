@@ -20,8 +20,8 @@
                         <h1 class="mb-0">PT KIAN SANTANG MULIATAMA</h1>
                     </div>
                     <p class="mb-4">
-                    PT. KSM didirikan pada tahun 2018, perusahaan ini bergerak dalam bidang Perdagangan, Pembangunan, Perindustrian, Jasa, dan Transportasi. Saat ini fokus utamanya adalah pekerjaan konstruksi yang meliputi konstruksi pengolahan dan penyimpanan barang migas, instalasi migas, instalasi mekanikal, dan instalasi kelistrikan.<br><br>
-                    Kami akan selalu berusaha memberikan solusi terbaik bagi mitra bisnis kami berdasarkan kompetensi, profesionalisme, kepercayaan, dan motivasi untuk memenuhi tuntutan mitra bisnis dan selalu mengutamakan hubungan jangka panjang dengan mitra bisnis dan pengguna akhir di seluruh Indonesia.
+                    <b>PT Kian Santang Muliatama Tbk (“Perseroan” atau “KSM”)</b> adalah perusahaan yang bergerak di bidang jasa penunjang industri gas, meliputi penyediaan product (spare parts) hingga ke engineering, procurement and construction (EPC).<br><br>
+                    Berkantor pusat di Kota Bekasi, Jawa Barat, KSM berdiri sejak tahun 2018 dan dikelola oleh individu-individu yang berpengalaman di sektor oil & gas, khususnya di bidang infrastruktur gas.
                     </p>
                     <a href="quote.html" class="btn btn-primary py-3 px-5 mt-3 wow zoomIn" data-wow-delay="0.9s" style="visibility: visible; animation-delay: 0.9s; animation-name: zoomIn;">Baca Lebih Lanjut</a>
                 </div>
@@ -95,16 +95,14 @@
                     </div>
                     <div class="row gx-3">
                         <div class="col-sm-6 wow zoomIn" data-wow-delay="0.2s" style="visibility: visible; animation-delay: 0.2s; animation-name: zoomIn;">
-                            <h5 class="mb-4"><i class="fa fa-handshake text-primary me-3"></i>Komitmen</h5>
+                            <h5 class="mb-4"><i class="fa fa-handshake text-primary me-3"></i>Kompeten</h5>
                         </div>
                         <div class="col-sm-6 wow zoomIn" data-wow-delay="0.4s" style="visibility: visible; animation-delay: 0.4s; animation-name: zoomIn;">
-                            <h5 class="mb-4"><i class="fa fa-plus text-primary me-3"></i>Memberikan Manfaat & Kebahagiaan</h5>
+                            <h5 class="mb-4"><i class="fa fa-plus text-primary me-3"></i>Memberikan Manfaat</h5>
                         </div>
                     </div>
                     <p class="mb-4">
-                        Komitmen untuk memberikan yang terbaik bagi pelanggan.<br>
-                        Selalu berorientasi pada kepuasan pelanggan dengan mengutamakan profesionalisme, inovasi, kompetensi, dan tanggung jawab.<br>
-                        Memberikan keuntungan dan kebahagiaan bagi pelanggan, mitra bisnis, perusahaan dan karyawan.
+                    Perusahaan EPC, industri, perdagangan dan jasa  yang kompeten di bidangnya mengutamakan penggunaan produk dan jasa dalam negeri demi manfaat yang lebih besar untuk Indonesia.
                     </p>
                 </div>
             </div>
@@ -119,13 +117,18 @@
                     </div>
                     <div class="row gx-3">
                         <div class="col-sm-6 wow zoomIn" data-wow-delay="0.2s" style="visibility: visible; animation-delay: 0.2s; animation-name: zoomIn;">
-                            <h5 class="mb-4"><i class="fa fa-star text-primary me-3"></i>Profesional</h5>
+                            <h5 class="mb-4"><i class="fa fa-star text-primary me-3"></i>Produk & Jasa Dalam Negeri</h5>
                         </div>
                         <div class="col-sm-6 wow zoomIn" data-wow-delay="0.4s" style="visibility: visible; animation-delay: 0.4s; animation-name: zoomIn;">
                             <h5 class="mb-4"><i class="fa fa-thumbs-up text-primary me-3"></i>Terpercaya</h5>
                         </div>
                     </div>
-                    <p class="mb-4">Misi kami adalah perusahaan profesional dan terpercaya di Indonesia dan menyebarkan kebahagiaan untuk semua.</p>
+                    <p class="mb-4">
+                    - Mengutamakan produk dan jasa dalam negeri.<br>
+                    - Mengembangkan produk dan jasa dalam negeri.<br>
+                    - Mengembangkan bisnis di era ekonomi disruptive.<br>
+
+                    </p>
                    
                 </div>
                 <div class="col-lg-5">

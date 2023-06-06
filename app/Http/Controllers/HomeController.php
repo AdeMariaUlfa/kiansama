@@ -14,13 +14,9 @@ class HomeController extends Controller
    {
     return view('bisnisKami');
    }
-   public function dewanDireksi()
+   public function susunanPengurus()
    {
-    return view('dewanDireksi');
-   }
-   public function dewanKomisaris()
-   {
-    return view('dewanKomisaris');
+    return view('susunanPengurus');
    }
    public function strukturPerusahaan()
    {

@@ -82,28 +82,37 @@
                         <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown" style="color:#b97d29;">Tentang Kami</a>
                         <div class="dropdown-menu m-0">
                             <a href="/profil" class="dropdown-item" style="color:#b97d29;">Profil Kami</a>
-                            <a href="/profil-bisnis" class="dropdown-item" style="color:#b97d29;">Bisnis</a>
                             <a href="/profil-struktur" class="dropdown-item" style="color:#b97d29;">Struktur Perusahaan</a>
-                            <a href="/profil-direksi" class="dropdown-item" style="color:#b97d29;">Dewan Direksi</a>
-                            <a href="/profil-komisaris" class="dropdown-item" style="color:#b97d29;">Dewan Komisaris</a>
+                            <a href="/profil-susunan" class="dropdown-item" style="color:#b97d29;">Susunan Pengurus</a>
+                            <a href="/profil-bisnis" class="dropdown-item" style="color:#b97d29;">Bisnis</a>
+                            <a href="#" class="dropdown-item" style="color:#b97d29;">Sertifikat</a>
                         </div>
                     </div>
-                    <a href="/experience" class="nav-item nav-link" style="color:#b97d29;">Pengadaan</a>
+                    <div class="nav-item dropdown">
+                        <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown" style="color:#b97d29;">Portofolio</a>
+                        <div class="dropdown-menu m-0">
+                            <a href="#" class="dropdown-item" style="color:#b97d29;">Projek</a>
+                        </div>
+                    </div>
                     <div class="nav-item dropdown">
                         <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown" style="color:#b97d29;">Investor</a>
                         <div class="dropdown-menu m-0">
                             <a href="/profil" class="dropdown-item" style="color:#b97d29;">Info Investor</a>
                             <a href="/profil-bisnis" class="dropdown-item" style="color:#b97d29;">Laporan Tahunan & Laporan Keuangan</a>
                             <a href="/profil-struktur" class="dropdown-item" style="color:#b97d29;">Pemegang Saham</a>
-                            <a href="/profil-direksi" class="dropdown-item" style="color:#b97d29;">Sekretaris Perseroan</a>
                             <a href="/profil-komisaris" class="dropdown-item" style="color:#b97d29;">Rapat Umum Pemegang Saham</a>
                             <a href="/profil-komisaris" class="dropdown-item" style="color:#b97d29;">Keterbukaan Informasi</a>
                             <a href="/profil-komisaris" class="dropdown-item" style="color:#b97d29;">Ikhtisar Data Keuangan</a> 
                         </div>
                     </div>
-                    <a href="/gallery" class="nav-item nav-link" style="color:#b97d29;">Karir</a>
                     <a href="/product" class="nav-item nav-link" style="color:#b97d29;">Berita</a>
-                    <a href="/kontak" class="nav-item nav-link" style="color:#b97d29;">Kontak Kami</a>
+                    <div class="nav-item dropdown">
+                        <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown" style="color:#b97d29;">Kontak Kami</a>
+                        <div class="dropdown-menu m-0">
+                            <a href="/kontak" class="dropdown-item" style="color:#b97d29;">Kontak</a>
+                            <a href="#" class="dropdown-item" style="color:#b97d29;">Karir</a>
+                        </div>
+                    </div>
                     <a href="/gallery" class="nav-item nav-link" style="color:#b97d29;">Login</a>
                 </div>
                 <!-- <a href="https://htmlcodex.com/startup-company-website-template" class="btn btn-primary py-2 px-4 ms-3">Download Pro Version</a> -->
