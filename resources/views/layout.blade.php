@@ -27,6 +27,7 @@
 
     <!-- Customized Bootstrap Stylesheet -->
     <link href="{{ asset('template/css/bootstrap.min.css') }}" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.0/css/bootstrap.min.css" integrity="sha384-SI27wrMjH3ZZ89r4o+fGIJtnzkAnFs3E4qz9DIYioCQ5l9Rd/7UAa8DHcaL8jkWt" crossorigin="anonymous">
 
     <!-- Template Stylesheet -->
     <link href="{{ asset('template/css/style.css') }}" rel="stylesheet">
@@ -58,8 +59,8 @@
                     <a class="btn btn-sm btn-outline-light btn-sm-square rounded-circle me-2" href=""><img src="{{ asset('template/img/ina.jpg') }}" alt="" width="25" height="25"></a> -->
                 </div>
                 <div class="change-language " title="Change Language">
-							<a href="/home" class="language en"></a>
-				</div>
+                    <a href="/home" class="language en"></a>
+                </div>
             </div>
         </div>
     </div>
@@ -102,7 +103,7 @@
                             <a href="/profil-struktur" class="dropdown-item" style="color:#b97d29;">Pemegang Saham</a>
                             <a href="/profil-komisaris" class="dropdown-item" style="color:#b97d29;">Rapat Umum Pemegang Saham</a>
                             <a href="/profil-komisaris" class="dropdown-item" style="color:#b97d29;">Keterbukaan Informasi</a>
-                            <a href="/profil-komisaris" class="dropdown-item" style="color:#b97d29;">Ikhtisar Data Keuangan</a> 
+                            <a href="/profil-komisaris" class="dropdown-item" style="color:#b97d29;">Ikhtisar Data Keuangan</a>
                         </div>
                     </div>
                     <a href="/product" class="nav-item nav-link" style="color:#b97d29;">Berita</a>
@@ -146,17 +147,17 @@
 
     <!-- Footer Start -->
     <div class="touch-line">
-		<div class="container">
-			<div class="row">
-				<div class="col-md-8">
-				   <p>PT. KSM didirikan pada tahun 2018, perusahaan ini bergerak dalam bidang Perdagangan, Pembangunan, Perindustrian, Jasa, dan Transportasi. Saat ini fokus utamanya adalah pekerjaan konstruksi yang meliputi konstruksi pengolahan dan penyimpanan barang migas, instalasi migas, instalasi mekanikal, dan instalasi kelistrikan</p>
-				</div>
-				<div class="col-md-4">
-				   <a class="btn btn-lg btn-dark btn-block" href="/kontak"> Hubungi Kami </a>
-				</div>
-			</div>
-		</div>
-	</div>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-8">
+                    <p>PT. KSM didirikan pada tahun 2018, perusahaan ini bergerak dalam bidang Perdagangan, Pembangunan, Perindustrian, Jasa, dan Transportasi. Saat ini fokus utamanya adalah pekerjaan konstruksi yang meliputi konstruksi pengolahan dan penyimpanan barang migas, instalasi migas, instalasi mekanikal, dan instalasi kelistrikan</p>
+                </div>
+                <div class="col-md-4">
+                    <a class="btn btn-lg btn-dark btn-block" href="/kontak"> Hubungi Kami </a>
+                </div>
+            </div>
+        </div>
+    </div>
 
     <div class="container-fluid bg-dark text-light wow fadeInUp" data-wow-delay="0.1s">
         <div class="container">
@@ -204,7 +205,7 @@
                                 <h3 class="text-light mb-0">Tautan Populer</h3>
                             </div>
                             <div class="link-animated d-flex flex-column justify-content-start">
-                            <a class="text-light mb-2" href="#"><i class="bi bi-arrow-right text-primary me-2"></i>Beranda</a>
+                                <a class="text-light mb-2" href="#"><i class="bi bi-arrow-right text-primary me-2"></i>Beranda</a>
                                 <a class="text-light mb-2" href="#"><i class="bi bi-arrow-right text-primary me-2"></i>Profil Kami</a>
                                 <a class="text-light mb-2" href="#"><i class="bi bi-arrow-right text-primary me-2"></i>Pengadaan</a>
                                 <a class="text-light mb-2" href="#"><i class="bi bi-arrow-right text-primary me-2"></i>Berita</a>
@@ -220,10 +221,10 @@
     <div class="container-fluid text-white" style="background: #061429;">
         <div class="container text-center">
             <div class="row justify-content-end">
-                    <div class="d-flex align-items-center justify-content-center" style="height: 75px;">
-                        <p class="mb-0">&copy; <a class="text-white border-bottom" href="#">Kian Santang Muliatama</a>. Seluruh hak cipta. 
-                        </p>
-                    </div>
+                <div class="d-flex align-items-center justify-content-center" style="height: 75px;">
+                    <p class="mb-0">&copy; <a class="text-white border-bottom" href="#">Kian Santang Muliatama</a>. Seluruh hak cipta.
+                    </p>
+                </div>
             </div>
         </div>
     </div>
@@ -245,6 +246,10 @@
 
     <!-- Template Javascript -->
     <script src="{{ asset('template/js/main.js') }}"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.0/js/bootstrap.min.js" integrity="sha384-3qaqj0lc6sV/qpzrc1N5DC6i1VRn/HyX4qdPaiEFbn54VjQBEU341pvjz7Dv3n6P" crossorigin="anonymous"></script>
+ 
 </body>
 
 </html>
