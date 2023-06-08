@@ -127,12 +127,6 @@
         <div class="row g-5">
             <div class="col-lg-8">
                     <div id="myCarousel" class="carousel slide" data-interval="false">
-                        <ol class="carousel-indicators">
-                            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-                            <li data-target="#myCarousel" data-slide-to="1"></li>
-                            <li data-target="#myCarousel" data-slide-to="2"></li>
-                        </ol>
-
                         <div class="carousel-inner">
                             <div class="carousel-item active">
                                     <video width="100%" height="100%" controls autoplay loop muted class="myvid" id="player">
@@ -140,15 +134,14 @@
                                     </video>
                                 
                             </div>
-
-
                         </div>
+                           
 
-                        <a class="carousel-control-prev" href="#myCarousel" role="button" data-slide="prev">
+                        <a class="carousel-control-prev"  role="button" data-slide="prev" href="#myCarousel">
                             <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                             <span class="sr-only">Next</span>
                         </a>
-                        <a class="carousel-control-next" href="#myCarousel" role="button" data-slide="next">
+                        <a class="carousel-control-next"  role="button" data-slide="next" href="#myCarousel">
                             <span class="carousel-control-next-icon" aria-hidden="true"></span>
                             <span class="sr-only">Back</span>
                         </a>
@@ -161,13 +154,14 @@
                     <h1 class="mb-0">PT KIAN SANTANG MULIATAMA</h1>
                 </div>
                 <div class="row g-0 mb-3">
-                    <div class="col-sm-6 wow zoomIn" data-wow-delay="0.2s" style="visibility: visible; animation-delay: 0.2s; animation-name: zoomIn;">
+                    <!-- <div class="col-sm-6 wow zoomIn" data-wow-delay="0.2s" style="visibility: visible; animation-delay: 0.2s; animation-name: zoomIn;">
                         <h5 class="mb-3"><i class="fa fa-check text-primary me-3"></i>Perdagangan</h5>
                         <h5 class="mb-3"><i class="fa fa-check text-primary me-3"></i>Konstruksi</h5>
                     </div>
                     <div class="col-sm-6 wow zoomIn" data-wow-delay="0.4s" style="visibility: visible; animation-delay: 0.4s; animation-name: zoomIn;">
                         <h5 class="mb-3"><i class="fa fa-check text-primary me-3"></i>Pelayanan</h5>
-                    </div>
+                    </div> -->
+                    isi text
                 </div>
             </div>
 

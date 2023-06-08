@@ -26,7 +26,7 @@
                                 <i class="fa fa-cubes text-white"></i>
                             </div>
                         </div>
-                        <h4>EPC</h4>
+                        <h4 class="d-flex justify-content-end">EPC</h4>
                         <p class="mb-0">KSM memiliki kemampuan melaksanakan pekerjaan <i>Engineering, Procurement, Construction,</i> utamanya di sektor gas industri dan <i>city gas</i>. </p>
                     </div>
                     <div class="col-12 wow zoomIn" data-wow-delay="0.6s" style="visibility: visible; animation-delay: 0.6s; animation-name: zoomIn;">
@@ -35,7 +35,7 @@
                                 <i class="fa fa-users-cog text-white"></i>
                             </div>
                         </div>
-                        <h4>SERVICES</h4>
+                        <h4 class="d-flex justify-content-end">SERVICES</h4>
                         <p class="mb-0">Meraih peluang pekerjaan kalibrasi (<i>wet cal</i>), repair gas equipment, testing & komisioning dari perusahaan-perusahaan <i>Oil & Gas</i>.</p>
                     </div>
                 </div>
@@ -48,7 +48,7 @@
             <div class="col-lg-4">
                 <div class="row g-5">
                     <div class="col-12 wow zoomIn" data-wow-delay="0.4s" style="visibility: visible; animation-delay: 0.4s; animation-name: zoomIn;">
-                        <div class="d-flex justify-content-end">
+                        <div class="d-flex">
                             <div class="bg-primary rounded d-flex align-items-center justify-content-center mb-3" style="width: 60px; height: 60px;">
                                 <i class="fas fa-box text-white"></i>
                             </div>
@@ -57,7 +57,7 @@
                         <p class="mb-0"><i>Converter kit</i> ABG & Ergas, Regulator & meter gas Rumah Tangga (Ergas), <i>transition fitting</i> (Kians), <i>pressure gauges, gas odorizing system, Metering & Regulating Station</i> (MRS), <i>Regulator Sector</i> (RS), <i>gas filter</i>.</p>
                     </div>
                     <div class="col-12 wow zoomIn" data-wow-delay="0.8s" style="visibility: visible; animation-delay: 0.8s; animation-name: zoomIn;">
-                        <div class="d-flex justify-content-end">
+                        <div class="d-flex">
                             <div class="bg-primary rounded d-flex align-items-center justify-content-center mb-3" style="width: 60px; height: 60px;">
                                 <i class="fa fa-hands-helping  text-white"></i>
                             </div>
