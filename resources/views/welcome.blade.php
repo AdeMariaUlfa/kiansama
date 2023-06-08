@@ -125,8 +125,7 @@
 <div class="container-fluid py-5 wow fadeInUp" data-wow-delay="0.1s" style="visibility: visible; animation-delay: 0.1s; animation-name: fadeInUp;">
     <div class="container py-5">
         <div class="row g-5">
-            <div class="col-lg-8" style="min-height: 500px;">
-                <div class="position-relative h-100">
+            <div class="col-lg-8">
                     <div id="myCarousel" class="carousel slide" data-interval="false">
                         <ol class="carousel-indicators">
                             <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
@@ -136,11 +135,10 @@
 
                         <div class="carousel-inner">
                             <div class="carousel-item active">
-                                <div class="embed-responsive embed-responsive-16by9">
-                                    <video controls autoplay loop muted class="myvid" id="player" class="embed-responsive-item">
+                                    <video width="100%" height="100%" controls autoplay loop muted class="myvid" id="player">
                                         <source src="{{asset('template/video/beranda.mp4')}}" type="video/mp4">
                                     </video>
-                                </div>
+                                
                             </div>
 
 
@@ -156,7 +154,7 @@
                         </a>
                     </div>
                 </div>
-            </div>
+        
             <div class="col-lg-4">
                 <div class="section-title position-relative pb-3 mb-5">
                     <h5 class="fw-bold text-dark text-uppercase">Video Kami</h5>
