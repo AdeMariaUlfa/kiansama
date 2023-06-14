@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\BeritaController;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\HomeController;
 /*
@@ -20,7 +21,10 @@ Route::get('/profil-bisnis', function () {return view('bisnisKami');});
 Route::get('/profil-susunan', function () {return view('susunanPengurus');});
 Route::get('/profil-struktur', function () {return view('strukturPerusahaan');});
 
+Route::resource('/admin/berita',BeritaController::class);
+
 Route::get('/kontak', function () {return view('kontakKami');});
+Route::get('/admin', function () {return view('admin.dashboard');});
 
 
 // link route english
