@@ -91,7 +91,7 @@
                     <div class="nav-item dropdown">
                         <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown" style="color:#b97d29;">Portofolio</a>
                         <div class="dropdown-menu m-0">
-                            <a href="#" class="dropdown-item" style="color:#b97d29;">Projek</a>
+                            <a href="/projek" class="dropdown-item" style="color:#b97d29;">Projek</a>
                         </div>
                     </div>
                     <div class="nav-item dropdown">
