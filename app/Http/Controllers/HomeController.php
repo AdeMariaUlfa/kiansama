@@ -19,6 +19,10 @@ class HomeController extends Controller
    {
       return view('susunanPengurus');
    }
+   public function portofolioProjek()
+   {
+    return view('portofolio-projek');
+   }
    public function strukturPerusahaan()
    {
       return view('strukturPerusahaan');
