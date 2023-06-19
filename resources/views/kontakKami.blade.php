@@ -36,7 +36,7 @@
                         </div>
                         <div class="ps-4">
                             <h6 class="mb-2">Email untuk mendapatkan penawaran gratis</h6>
-                            <h5 class="text-primary mb-0">dio.nesta@ptkiansantang.com</h5>
+                            <h5 class="text-primary mb-0">corsec@kianmulia.com</h5>
                         </div>
                     </div>
                 </div>
