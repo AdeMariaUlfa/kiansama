@@ -5,6 +5,9 @@
 @endif
 <div class="col-12">
     <div class="white-box">
+        <div class="col-4">
+            <a href="{{route('berita.create')}}" class="btn btn-primary">Tambah</a>
+        </div>
         <table class="table">
             <thead class="thead-dark">
                 <tr>
@@ -18,7 +21,7 @@
                 @foreach($data as $berita)
                 <tr>
                     <td>{{$berita->judul}}</td>
-                    <td> <a href="{{route('berita.show',['beritum' => $berita->id])}}" class="btn btn-primary">Detail</a>
+                    <td> <a href="{{route('berita.show',$berita->id)}}" class="btn btn-primary">Detail</a>
 
                     </td>
                     <td>{{date('d-m-Y', strtotime($berita->created_at))}}</td>

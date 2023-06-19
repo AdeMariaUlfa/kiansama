@@ -12,11 +12,17 @@
         </div>
         @endif
         <h3 class="box-title">Edit Berita</h3>
-        <form method="post" action="{{route('berita.store')}}" enctype="multipart/form-data">
+        <form method="post" action="{{route('berita.update',$data->id)}}" enctype="multipart/form-data">
             {{ csrf_field() }}
+            {{ method_field('PATCH') }}
+            <div class="form-group">
+                <div class="preview">
+                    <img id="file-ip-1-preview" src="{{asset('image/'.$data->img)}}">
+                </div>
+            </div>
             <div class="form-group">
                 <label>Cover Berita</label>
-                <input type="file" class="form-control" name="img" value="{{$data->img}}" required="required">
+                <input type="file" class="form-control" name="img" accept="image/*" onchange="showPreview(event);">
             </div>
             <div class="form-group">
                 <label>Judul Berita</label>
@@ -25,7 +31,7 @@
             <div class="form-group">
                 <label>Isi Berita</label>
                 <textarea id="summernote" rows="10" name="isi" required="required">
-                    {{$data->isi}}
+                {{$data->isi}}
                 </textarea>
             </div>
             <div class="form-group">
@@ -36,6 +42,16 @@
 </div>
 @endsection
 @section('script')
+<script>
+    function showPreview(event) {
+        if (event.target.files.length > 0) {
+            var src = URL.createObjectURL(event.target.files[0]);
+            var preview = document.getElementById("file-ip-1-preview");
+            preview.src = src;
+            preview.style.display = "block";
+        }
+    }
+</script>
 <script>
     $(document).ready(function() {
         $('#summernote').summernote({

@@ -105,7 +105,7 @@
                             <a href="/profil-komisaris" class="dropdown-item" style="color:#b97d29;">Ikhtisar Data Keuangan</a>
                         </div>
                     </div>
-                    <a href="/product" class="nav-item nav-link" style="color:#b97d29;">Berita</a>
+                    <a href="/berita" class="nav-item nav-link" style="color:#b97d29;">Berita</a>
                     <div class="nav-item dropdown">
                         <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown" style="color:#b97d29;">Kontak Kami</a>
                         <div class="dropdown-menu m-0">

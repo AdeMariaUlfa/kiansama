@@ -15,8 +15,13 @@
         <form method="post" action="{{route('berita.store')}}" enctype="multipart/form-data">
             {{ csrf_field() }}
             <div class="form-group">
+                <div class="preview">
+                    <img id="file-ip-1-preview">
+                </div>
+            </div>
+            <div class="form-group">
                 <label>Cover Berita</label>
-                <input type="file" class="form-control" name="img" required="required">
+                <input type="file" class="form-control" name="img" required="required" accept="image/*" onchange="showPreview(event);">
             </div>
             <div class="form-group">
                 <label>Judul Berita</label>
@@ -34,6 +39,16 @@
 </div>
 @endsection
 @section('script')
+<script>
+    function showPreview(event) {
+        if (event.target.files.length > 0) {
+            var src = URL.createObjectURL(event.target.files[0]);
+            var preview = document.getElementById("file-ip-1-preview");
+            preview.src = src;
+            preview.style.display = "block";
+        }
+    }
+</script>
 <script>
     $(document).ready(function() {
         $('#summernote').summernote({

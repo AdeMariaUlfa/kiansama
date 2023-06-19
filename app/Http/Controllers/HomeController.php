@@ -2,35 +2,41 @@
 
 namespace App\Http\Controllers;
 
+use App\Models\berita;
 use Illuminate\Http\Request;
 
 class HomeController extends Controller
 {
    public function profilKami()
    {
-    return view('profilKami');
+      return view('profilKami');
    }
    public function bisnisKami()
    {
-    return view('bisnisKami');
+      return view('bisnisKami');
    }
    public function susunanPengurus()
    {
-    return view('susunanPengurus');
+      return view('susunanPengurus');
    }
    public function strukturPerusahaan()
    {
-    return view('strukturPerusahaan');
+      return view('strukturPerusahaan');
    }
    public function kontakKami()
    {
-    return view('kontakKami');
+      return view('kontakKami');
+   }
+   public function berita()
+   {
+      $data = berita::latest()->get();
+      return view('guest-berita', compact('data'));
    }
 
 
    // view page bahasa inggris
    public function home()
    {
-    return view('eng.home');
+      return view('eng.home');
    }
 }

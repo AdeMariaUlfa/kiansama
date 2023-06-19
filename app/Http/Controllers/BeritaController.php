@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use App\Models\berita;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\File;
 
 class BeritaController extends Controller
 {
@@ -14,8 +15,8 @@ class BeritaController extends Controller
      */
     public function index()
     {
-        $data=berita::all();
-        return view('admin.berita',compact('data'));
+        $data = berita::latest()->get();
+        return view('admin.berita', compact('data'));
     }
 
     /**
@@ -41,10 +42,12 @@ class BeritaController extends Controller
             'judul' => 'required',
             'isi' => 'required',
         ]);
-        $path = $request->file('img')->store('public/images');
+        $file = $request->file('img');
+        $nama_file = time() . "_" . $file->getClientOriginalName();
+        $file->move('image', $nama_file);
         berita::create(
             [
-                'img' => $path,
+                'img' => $nama_file,
                 'judul' => $request->judul,
                 'isi' => $request->isi
             ]
@@ -60,7 +63,8 @@ class BeritaController extends Controller
      */
     public function show($id)
     {
-        
+        $data = berita::find($id);
+        return view('show-berita', compact('data'));
     }
 
     /**
@@ -71,9 +75,9 @@ class BeritaController extends Controller
      */
     public function edit($id)
     {
-        $data=berita::find($id);
+        $data = berita::find($id);
 
-        return view('admin.edit-berita',compact('data'));
+        return view('admin.edit-berita', compact('data'));
     }
 
     /**
@@ -85,7 +89,24 @@ class BeritaController extends Controller
      */
     public function update(Request $request, $id)
     {
-        //
+        $validatedData = $request->validate([
+            'img' => 'max:500000',
+            'judul' => 'required',
+            'isi' => 'required',
+        ]);
+
+        $update = berita::find($id);
+        $file = $request->file('img');
+        if ($file != null) {
+            File::delete('image/' . $update->img);
+            $nama_file = time() . "_" . $file->getClientOriginalName();
+            $file->move('image', $nama_file);
+            $update->img = $nama_file;
+        }
+        $update->judul = $request->judul;
+        $update->isi = $request->isi;
+        $update->save();
+        return redirect()->route('berita.index')->with('success', 'Berita Berhasil Diupdate');
     }
 
     /**
@@ -96,7 +117,8 @@ class BeritaController extends Controller
      */
     public function destroy($id)
     {
-        $data=berita::find($id);
+        $data = berita::find($id);
+        File::delete('image/' . $data->img);
         $data->delete();
 
         return redirect()->route('berita.index')->with('success', 'Berita Berhasil Dihapus');
