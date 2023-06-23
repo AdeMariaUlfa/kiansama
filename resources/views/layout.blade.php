@@ -91,7 +91,7 @@
                     <div class="nav-item dropdown">
                         <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown" style="color:#b97d29;">Portofolio</a>
                         <div class="dropdown-menu m-0">
-                            <a href="/projek" class="dropdown-item" style="color:#b97d29;">Projek</a>
+                            <a href="/projek" class="dropdown-item" style="color:#b97d29;">Proyek</a>
                         </div>
                     </div>
                     <div class="nav-item dropdown">
@@ -164,6 +164,13 @@
                 <div class="col-lg-10 col-md-6">
                     <div class="row gx-5">
                         <div class="col-lg-4 col-md-12 pt-5 mb-5">
+                        <img src="{{ asset('template/img/logo2.png') }}" alt=""><br><br>
+                        <p> Bergerak dalam bidang Perdagangan, Pembangunan, Perindustrian, Jasa, dan Transportasi
+                        </p>
+                        <br>
+                        <img src="{{ asset('template/img/logo-iso-2.png') }}" width="80%" alt="">
+                        </div>
+                        <div class="col-lg-4 col-md-12 pt-5 mb-5">
                             <div class="section-title section-title-sm position-relative pb-3 mb-4">
                                 <h3 class="text-light mb-0">Hubungi Kami</h3>
                             </div>
@@ -200,19 +207,6 @@
                                 <a class="text-light mb-2" href="#"><i class="bi bi-arrow-right text-primary me-2"></i>Pengadaan</a>
                                 <a class="text-light mb-2" href="#"><i class="bi bi-arrow-right text-primary me-2"></i>Investor</a>
                                 <a class="text-light mb-2" href="#"><i class="bi bi-arrow-right text-primary me-2"></i>Berita</a>
-                                <a class="text-light" href="#"><i class="bi bi-arrow-right text-primary me-2"></i>Karir</a>
-                            </div>
-                        </div>
-                        <div class="col-lg-4 col-md-12 pt-0 pt-lg-5 mb-5">
-                            <div class="section-title section-title-sm position-relative pb-3 mb-4">
-                                <h3 class="text-light mb-0">Tautan Populer</h3>
-                            </div>
-                            <div class="link-animated d-flex flex-column justify-content-start">
-                                <a class="text-light mb-2" href="#"><i class="bi bi-arrow-right text-primary me-2"></i>Beranda</a>
-                                <a class="text-light mb-2" href="#"><i class="bi bi-arrow-right text-primary me-2"></i>Profil Kami</a>
-                                <a class="text-light mb-2" href="#"><i class="bi bi-arrow-right text-primary me-2"></i>Pengadaan</a>
-                                <a class="text-light mb-2" href="#"><i class="bi bi-arrow-right text-primary me-2"></i>Berita</a>
-                                <a class="text-light mb-2" href="#"><i class="bi bi-arrow-right text-primary me-2"></i>Investor</a>
                                 <a class="text-light" href="#"><i class="bi bi-arrow-right text-primary me-2"></i>Karir</a>
                             </div>
                         </div>
