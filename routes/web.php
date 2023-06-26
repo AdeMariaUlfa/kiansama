@@ -3,6 +3,8 @@
 use App\Http\Controllers\BeritaController;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\HomeController;
+use App\Http\Controllers\LoginController;
+
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -13,6 +15,12 @@ use App\Http\Controllers\HomeController;
 | contains the "web" middleware group. Now create something great!
 |
 */
+
+Route::get('login',[LoginController::class,'login'])->name('login');
+
+Route::post('login',[LoginController::class,'proses_login'])->name('login.auth');
+
+Route::post('logout',[LoginController::class,'logout'])->name('logout');
 
 Route::get('/', function () {return view('welcome');});
 
