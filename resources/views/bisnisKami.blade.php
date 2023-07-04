@@ -26,7 +26,7 @@
                                 <i class="fa fa-cubes text-white"></i>
                             </div>
                         </div>
-                        <h4 class="d-flex justify-content-end">EPC</h4>
+                        <h4 class="d-flex justify-content-end"><a href="/profil-bisnis-epc">EPC</a></h4>
                         <p class="mb-0">KSM memiliki kemampuan melaksanakan pekerjaan <i>Engineering, Procurement, Construction,</i> utamanya di sektor gas industri dan <i>city gas</i>. </p>
                     </div>
                     <div class="col-12 wow zoomIn" data-wow-delay="0.6s" style="visibility: visible; animation-delay: 0.6s; animation-name: zoomIn;">

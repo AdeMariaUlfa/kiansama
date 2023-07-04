@@ -17,7 +17,7 @@
                 <div class="col-lg-7">
                     <div class="section-title position-relative pb-3 mb-5">
                         <h5 class="fw-bold text-primary text-uppercase">Sejarah Singkat</h5>
-                        <h1 class="mb-0">PT KIAN SANTANG MULIATAMA</h1>
+                        <h1 class="mb-0">PT KIAN SANTANG MULIATAMA Tbk</h1>
                     </div>
                     <p class="mb-4">
                     <b>PT Kian Santang Muliatama Tbk (“Perseroan” atau “KSM”)</b> adalah perusahaan yang bergerak di bidang jasa penunjang industri gas, meliputi penyediaan product (spare parts) hingga ke engineering, procurement and construction (EPC).<br><br>

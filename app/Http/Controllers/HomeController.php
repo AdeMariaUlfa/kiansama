@@ -15,6 +15,10 @@ class HomeController extends Controller
    {
       return view('bisnisKami');
    }
+   public function bisnisKami_epc()
+   {
+      return view('bisnisKami-epc');
+   }
    public function susunanPengurus()
    {
       return view('susunanPengurus');
@@ -22,6 +26,10 @@ class HomeController extends Controller
    public function portofolioProjek()
    {
     return view('portofolio-projek');
+   }
+   public function infoInvestor()
+   {
+    return view('investor-info');
    }
    public function strukturPerusahaan()
    {

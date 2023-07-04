@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="utf-8">
-    <title>PT KIAN SANTANG MULIATAMA</title>
+    <title>PT KIAN SANTANG MULIATAMA Tbk</title>
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
     <meta content="Free HTML Templates" name="keywords">
     <meta content="Free HTML Templates" name="description">
@@ -71,7 +71,7 @@
     <div class="container-fluid position-relative p-0">
         <nav class="navbar navbar-expand-lg navbar-dark px-5 py-3 py-lg-0" style="background:white;">
             <a href="{{ asset('template/index.html') }}" class="navbar-brand p-0">
-                <img src="{{ asset('template/img/logo4.png') }}" alt="Image">
+                <img src="{{ asset('template/img/logonew.png') }}" alt="Image">
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
                 <span class="fa fa-bars"></span>
@@ -98,7 +98,7 @@
                     <div class="nav-item dropdown">
                         <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown" style="color:#b97d29;">Investor</a>
                         <div class="dropdown-menu m-0">
-                            <a href="/profil" class="dropdown-item" style="color:#b97d29;">Info Investor</a>
+                            <a href="/infoInvestor" class="dropdown-item" style="color:#b97d29;">Info Investor</a>
                             <a href="/profil-bisnis" class="dropdown-item" style="color:#b97d29;">Laporan Tahunan & Laporan Keuangan</a>
                             <a href="/profil-struktur" class="dropdown-item" style="color:#b97d29;">Pemegang Saham</a>
                             <a href="/profil-komisaris" class="dropdown-item" style="color:#b97d29;">Rapat Umum Pemegang Saham</a>
@@ -220,7 +220,7 @@
         <div class="container text-center">
             <div class="row justify-content-end">
                 <div class="d-flex align-items-center justify-content-center" style="height: 75px;">
-                    <p class="mb-0">&copy; <a class="text-white border-bottom" href="#">Kian Santang Muliatama</a>. Seluruh hak cipta.
+                    <p class="mb-0">&copy; <a class="text-white border-bottom" href="#">Kian Santang Muliatama Tbk</a>. Seluruh hak cipta.
                     </p>
                 </div>
             </div>

@@ -26,12 +26,14 @@ Route::get('/', function () {return view('welcome');});
 
 Route::get('/profil', function () {return view('profilKami');});
 Route::get('/profil-bisnis', function () {return view('bisnisKami');});
+Route::get('/profil-bisnis-epc', function () {return view('bisnisKami-epc');});
 Route::get('/profil-susunan', function () {return view('susunanPengurus');});
 Route::get('/profil-struktur', function () {return view('strukturPerusahaan');});
 
 Route::resource('/admin/berita',BeritaController::class);
 Route::get('/berita', [HomeController::class, 'berita'] );
 
+Route::get('/infoInvestor', function () {return view('investor-info');});
 Route::get('/projek', function () {return view('portofolio-projek');});
 Route::get('/kontak', function () {return view('kontakKami');});
 Route::get('/admin', function () {return view('admin.dashboard');});

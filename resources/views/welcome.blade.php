@@ -8,7 +8,7 @@
             <div class="carousel-caption d-flex flex-column align-items-center justify-content-center">
                 <div class="p-3" style="max-width: 900px;">
                     <h3 class="text-white mb-3 animated slideInDown">Selamat Datang Di</h3>
-                    <h3 class="display-1 text-white animated zoomIn">PT KIAN SANTANG MULIATAMA</h3>
+                    <h3 class="display-1 text-white animated zoomIn">PT KIAN SANTANG MULIATAMA Tbk</h3>
                     <h5 class="text-white">- Konstruksi -</h5>
                 </div>
             </div>
@@ -18,7 +18,7 @@
             <div class="carousel-caption d-flex flex-column align-items-center justify-content-center">
                 <div class="p-3" style="max-width: 900px;">
                     <h3 class="text-white mb-3 animated slideInDown">Selamat Datang Di</h3>
-                    <h3 class="display-1 text-white animated zoomIn">PT KIAN SANTANG MULIATAMA</h3>
+                    <h3 class="display-1 text-white animated zoomIn">PT KIAN SANTANG MULIATAMA Tbk</h3>
                     <h5 class="text-white">- Pelayanan -</h5>
                 </div>
             </div>
@@ -28,7 +28,7 @@
             <div class="carousel-caption d-flex flex-column align-items-center justify-content-center">
                 <div class="p-3" style="max-width: 900px;">
                     <h3 class="text-white mb-3 animated slideInDown">Selamat Datang Di</h3>
-                    <h3 class="display-1 text-white animated zoomIn">PT KIAN SANTANG MULIATAMA</h3>
+                    <h3 class="display-1 text-white animated zoomIn">PT KIAN SANTANG MULIATAMA Tbk</h3>
                     <h5 class="text-white">- Perdagangan -</h5>
                 </div>
             </div>
@@ -90,7 +90,7 @@
             <div class="col-lg-7">
                 <div class="section-title position-relative pb-3 mb-5">
                     <h5 class="fw-bold text-dark text-uppercase">Tentang Kami</h5>
-                    <h1 class="mb-0">PT KIAN SANTANG MULIATAMA</h1>
+                    <h1 class="mb-0">PT KIAN SANTANG MULIATAMA Tbk</h1>
                 </div>
                 <p class="mb-4">Memberikan solusi terbaik bagi mitra bisnis kami berdasarkan kompetensi, profesionalisme, kepercayaan, dan motivasi untuk memenuhi tuntutan mitra bisnis dan selalu mengutamakan hubungan jangka panjang dengan mitra bisnis dan pengguna akhir di seluruh Indonesia.</p>
                 <div class="row g-0 mb-3">
@@ -151,7 +151,7 @@
             <div class="col-lg-4">
                 <div class="section-title position-relative pb-3 mb-5">
                     <h5 class="fw-bold text-dark text-uppercase">Video Kami</h5>
-                    <h1 class="mb-0">PT KIAN SANTANG MULIATAMA</h1>
+                    <h1 class="mb-0">PT KIAN SANTANG MULIATAMA Tbk</h1>
                 </div>
                 <div class="row g-0 mb-3">
                     <!-- <div class="col-sm-6 wow zoomIn" data-wow-delay="0.2s" style="visibility: visible; animation-delay: 0.2s; animation-name: zoomIn;">
