@@ -34,10 +34,11 @@
             <!-- Section: Images -->
             <section class="">
                 <div class="row">
+                    
                     <div class="col-lg-4 col-md-12 mb-4 mb-lg-0">
                         <div class="bg-image hover-overlay ripple shadow-1-strong rounded" data-ripple-color="light">
                             <img src="{{asset('image-projek/Konverter-Kit/IMG-20200831-WA0009-removebg-preview.png')}}" class="w-100" data-target="#exampleModal" data-toggle="modal" />
-
+                            <h5 class="text-center">Konverter Kit</h5>
                         </div>
                     </div>
 
@@ -120,6 +121,7 @@
                     <div class="col-lg-4 mb-4 mb-lg-0">
                         <div class="bg-image hover-overlay ripple shadow-1-strong rounded" data-ripple-color="light">
                             <img src="{{asset('image-projek/Master-Meter/master-meter.png')}}" class="w-100" data-toggle="modal" data-target="#exampleModal1" />
+                            <h5 class="text-center">Master-Meter</h5>
                         </div>
                     </div>
                     <div class="modal fade bd-example-modal-lg" id="exampleModal1" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
@@ -194,7 +196,7 @@
                     <div class="col-lg-4 mb-4 mb-lg-0">
                         <div class="bg-image hover-overlay ripple shadow-1-strong rounded" data-ripple-color="light">
                             <img src="{{asset('image-projek/MRS G100/_MG_4567.JPG')}}" class="w-100" data-toggle="modal" data-target="#exampleModal2" />
-
+                            <h5 class="text-center">MRS G100</h5>
                         </div>
                     </div>
                     <div class="modal fade bd-example-modal-lg" id="exampleModal2" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
@@ -278,7 +280,7 @@
                     <div class="col-lg-4 mt-4 mb-lg-0">
                         <div class="bg-image hover-overlay ripple shadow-1-strong rounded" data-ripple-color="light">
                             <img src="{{asset('image-projek/Pekerjaan Pengadaan Suku Cadang Regulator Kit RMG dan Bryan Donkin (Honeywell)/20011410530815795.jpg')}}" class="w-100" data-toggle="modal" data-target="#exampleModal3" />
-
+                            <h5 class="text-center">Pekerjaan Pengadaan Suku Cadang Regulator Kit RMG dan Bryan Donkin (Honeywell)</h5>
                         </div>
                     </div>
 
@@ -358,6 +360,7 @@
                     <div class="col-lg-4 mt-4 mb-lg-0">
                         <div class="bg-image hover-overlay ripple shadow-1-strong rounded" data-ripple-color="light">
                             <img src="{{asset('image-projek/Pengadaan EVC dan Alat Ukur Sales and Operation Regional I Tahun 2022/elcorplus-500x500.png')}}" class="w-100" data-toggle="modal" data-target="#exampleModal4" />
+                            <h5 class="text-center">Pengadaan EVC dan Alat Ukur Sales and Operation Regional I Tahun 2022</h5>
                         </div>
                     </div>
 
@@ -436,6 +439,7 @@
                     <div class="col-lg-4 mt-4 mb-lg-0">
                         <div class="bg-image hover-overlay ripple shadow-1-strong rounded" data-ripple-color="light">
                             <img src="{{asset('image-projek/Provision of Development of Custody Meter Gas Turbin Jargas/_MG_4620.JPG')}}" class="w-100" data-toggle="modal" data-target="#exampleModal5" />
+                            <h5 class="text-center">Provision of Development of Custody Meter Gas Turbin Jargas</h5>
                         </div>
                     </div>
 
@@ -516,7 +520,7 @@
 
                 </div>
             </section>
-        </section>
+        </section><br><br>
         <!-- Modal gallery -->
         <!-- tabel -->
         <table class="styled-table">
@@ -526,185 +530,280 @@
                     <th>Nama Paket Pekerjaan</th>
                     <th>Bidang Pekerjaan</th>
                     <th>Lokasi</th>
+                    <th>Pemberi Tugas</th>
                     <th>Pengguna Jasa</th>
                     <th>Tahun</th>
                 </tr>
             </thead>
             <tbody>
-                <tr>
+            <tr>
                     <td>1</td>
-                    <td>Pengadaan EVC dan Alat Ukur Sales and Operation Regional I</td>
-                    <td>Pengadaan Barang</td>
-                    <td>Medan, Pekanbaru, Palembang, Lampung, Batam</td>
-                    <td>PT. Perusahaan Gas Negara</td>
-                    <td>2022</td>
+                    <td>Pekerjaan Pengadaan dan Instalasi Senior Orifice Fitting Meter Pupuk Kujang 1A & 1B District Cilamaya</td>
+                    <td>EPC</td>
+                    <td>Cilamaya</td>
+                    <td>PT. Patra Drilling Contractor</td>
+                    <td>PT. Pertamina Gas</td>
+                    <td>2023</td>
                 </tr>
                 <tr class="active-row">
                     <td>2</td>
-                    <td>MRS G100</td>
-                    <td>Pengadaan Barang</td>
-                    <td>Kerawang Timur</td>
-                    <td>PT. Surya Energi Parahita</td>
-                    <td>2022</td>
+                    <td>Pekerjaan Metering Replacement for Jabung Station </td>
+                    <td>EPC</td>
+                    <td>Jabung </td>
+                    <td>PT. Transportasi Gas Indonesia</td>
+                    <td>PT. Transportasi Gas Indonesia</td>
+                    <td>2023</td>
                 </tr>
                 <tr>
                     <td>3</td>
-                    <td>Master Meter dan Meter Sales and Operation Region I </td>
-                    <td>Pengadaan Barang</td>
-                    <td>Medan, Pekanbaru, Palembang, Lampung, Batam</td>
-                    <td>PT. Perusahaan Gas Negara</td>
-                    <td>2022</td>
+                    <td>Pengadaan dan Pengembangan Workshop Kalibrasi Meter Diaphragma, Pressure Gauge dan Temperature Gauge </td>
+                    <td>EPC</td>
+                    <td>Palembang</td>
+                    <td>PT. PGAS Solution</td>
+                    <td>PT. Perusahaan Gas Negara Tbk</td>
+                    <td>2023</td>
                 </tr>
                 <tr class="active-row">
                     <td>4</td>
-                    <td>Konverter Kit Ergas ECK-300</td>
+                    <td>Pengadaan Unit OMNI Flow Computer di Duri dan PLN Duri Metering Station </td>
                     <td>Pengadaan Barang</td>
-                    <td>Cianjur, Deli, Serdang, Bireun, Indramayu, Aceh, Asahan</td>
-                    <td>PT. Yuan Sejati</td>
-                    <td>2022</td>
+                    <td>Duri</td>
+                    <td>PT. Transportasi Gas Indonesia</td>
+                    <td>PT. Transportasi Gas Indonesia</td>
+                    <td>2023</td>
                 </tr>
                 <tr>
                     <td>5</td>
-                    <td>Konverter Kit Ergas ECK-300</td>
+                    <td>Pengadaan Metering Regulating Station (MRS) G.65 dan G.250 </td>
                     <td>Pengadaan Barang</td>
-                    <td>Brebes, Rokan Hulu, Rokan Hilir, Tasik Malaya</td>
-                    <td>PT. Yuan Sejati</td>
-                    <td>2022</td>
+                    <td>Jakarta</td>
+                    <td>PT. Surya Energi Parahita</td>
+                    <td>PT. Surya Energi Parahita</td>
+                    <td>2023</td>
                 </tr>
                 <tr class="active-row">
                     <td>6</td>
-                    <td>Pekerjaan Pengadaan Suku Cadang Regulator Kit RMG dan Bryan Donkin</td>
+                    <td>Pengadaan Ultrasonic Gas Flow Meter 16” Ansi 150</td>
                     <td>Pengadaan Barang</td>
-                    <td>Jakarta Timur</td>
-                    <td>PT. Perusahaan Gas Negara</td>
-                    <td>2022</td>
+                    <td>Jakarta </td>
+                    <td>PT. Ansi Mega Instrumenindo</td>
+                    <td>PT. PLN</td>
+                    <td>2023</td>
                 </tr>
                 <tr>
                     <td>7</td>
-                    <td>Provision of Development of Custody Meter Gas Turbin Jargas</td>
+                    <td>Pengadaan Konverter Kit Ergas ECK-300 </td>
                     <td>Pengadaan Barang</td>
-                    <td>Jakarta</td>
-                    <td>Energy Equity Epic (Sengkang) Pty.Ltd</td>
-                    <td>2022</td>
+                    <td>Indonesia</td>
+                    <td>PT. Yuan Sejati</td>
+                    <td>PT. Pertamina</td>
+                    <td>2023</td>
                 </tr>
                 <tr class="active-row">
                     <td>8</td>
-                    <td>Perbaikan Motor Beserta Blow Thruster</td>
-                    <td>Pengadaan Jasa</td>
-                    <td>Jakarta Timur</td>
-                    <td>Mabes TNI AL</td>
+                    <td>Pengadaan Master Meter dan Meter Sales and Operation Region I</td>
+                    <td>Pengadaan Barang</td>
+                    <td>Medan, Batam, Pekanbaru dan Lampung</td>
+                    <td>PT. Perusahaan Gas Negara Tbk</td>
+                    <td>PT. Perusahaan Gas Negara Tbk</td>
                     <td>2022</td>
                 </tr>
                 <tr>
                     <td>9</td>
-                    <td>Pengadaan Regulator Rumah Tangga (Ergas) sejumlah 4.020pcs</td>
+                    <td>Pengadaan Suku Cadang Regulator Kit RMG dan Bryan Donkin (Honeywell)</td>
                     <td>Pengadaan Barang</td>
-                    <td>Kab.Lumajang</td>
-                    <td>KSO PT.Petronesia Benimel - PT.Maharani Prima</td>
+                    <td>Jakarta</td>
+                    <td>PT. Perusahaan Gas Negara Tbk</td>
+                    <td>PT. Perusahaan Gas Negara Tbk</td>
                     <td>2022</td>
                 </tr>
                 <tr class="active-row">
                     <td>10</td>
-                    <td>Pengadaan Material Regulator Tahap 1 sejumlah 50.000 pcs</td>
-                    <td>Pengadaan Jasa</td>
-                    <td>Jakarta Barat</td>
-                    <td>PT. PGAS Solution</td>
+                    <td>Pengadaan Metering Regulating System (MRS) G100 </td>
+                    <td>Pengadaan Barang</td>
+                    <td>Jakarta</td>
+                    <td>PT. Surya Energi Parahita</td>
+                    <td>PT. Surya Energi Parahita</td>
                     <td>2022</td>
                 </tr>
                 <tr>
                     <td>11</td>
-                    <td>Pengadaan Material Regulator (SPK 3 AMD 4) sejumlah 12.073pcs</td>
+                    <td>Pengadaan EVC dan Alat Ukur Sales and Operation Regional I</td>
                     <td>Pengadaan Barang</td>
-                    <td>Jakarta Barat</td>
-                    <td>PT. PGAS Solution</td>
+                    <td>Medan, Pekanbaru, Palembang, Lampung, Batam</td>
+                    <td>PT. Perusahaan Gas Negara Tbk</td>
+                    <td>PT. Perusahaan Gas Negara Tbk</td>
                     <td>2022</td>
                 </tr>
                 <tr class="active-row">
                     <td>12</td>
-                    <td>Pengadaan Material Regulator(SPK 1 AMD 4, SPK 3 AMD 3) sejumlah 9.030 pcs</td>
+                    <td>Pengadaan Material Regulator 50.000 pcs </td>
                     <td>Pengadaan Barang</td>
-                    <td>Jakarta Barat</td>
+                    <td>Jabodetabek </td>
                     <td>PT. PGAS Solution</td>
+                    <td>PT. Perusahaan Gas Negara Tbk</td>
                     <td>2022</td>
                 </tr>
                 <tr>
                     <td>13</td>
-                    <td>Pengadaan Metering Regulating Station (MRS) & Metering Station (MS)</td>
-                    <td>Pengadaan Barang</td>
-                    <td>Surabaya</td>
-                    <td>PT. PGAS Solution</td>
-                    <td>2021</td>
+                    <td>Provision of Development if Custody Meter Gas Turbine Jargas  </td>
+                    <td>Pengadaan dan Instalasi </td>
+                    <td>Sengkang </td>
+                    <td>Energy Equity Epic (Sengkang) Pty. Ltd</td>
+                    <td>Energy Equity Epic (Sengkang) Pty. Ltd</td>
+                    <td>2022</td>
                 </tr>
                 <tr class="active-row">
                     <td>14</td>
-                    <td>Pengadaan Turbine Meter dan Modifikasi MRS</td>
-                    <td>Pengadaan dan Modifiksi</td>
-                    <td>Wajo dan Banggai</td>
-                    <td>PT. PGAS Solution</td>
-                    <td>2021</td>
+                    <td>Kontrak Pengadaan Jasa Lainnya Pemeliharaan Tingkat Depo  Platform KRI DKB-932</td>
+                    <td>Jasa Lainnya </td>
+                    <td>Jakarta </td>
+                    <td>Markas Besar Angkatan Laut Dinas Materiel</td>
+                    <td>Markas Besar Angkatan Laut Dinas Materiel</td>
+                    <td>2022</td>
                 </tr>
                 <tr>
                     <td>15</td>
-                    <td>Pengadaan MRS G.65</td>
-                    <td>Pengadaan Barang</td>
-                    <td>Karawang</td>
-                    <td>PT. Surya Energi Parahita</td>
+                    <td>Pekerjaan Penambahan Titik Pantau GMC GDMR 1 </td>
+                    <td>Pengadaan dan Instalasi</td>
+                    <td>Jakarta</td>
+                    <td>PT. Perusahaan Gas Negara Tbk</td>
+                    <td>PT. Perusahaan Gas Negara Tbk</td>
                     <td>2021</td>
                 </tr>
                 <tr class="active-row">
                     <td>16</td>
-                    <td>Pengadaan MRS, RSI & RS Proyek Pembangunan Jaringan Gas Bumi Rumah Tangga </td>
-                    <td>Pengadaan Barang</td>
-                    <td>Kab. Aceh Utara Kota & Kab. Aceh Timur</td>
-                    <td>PT. Adhi Karya (Persero) Tbk</td>
+                    <td>Pengadaan Jasa Engineering Procurement Construction By Pass Line CNG Plant Tambak Lorok PLTU</td>
+                    <td>EPC</td>
+                    <td>Semarang</td>
+                    <td>PT. National Energy Solutions</td>
+                    <td>PT. Perta Daya Gas</td>
                     <td>2021</td>
                 </tr>
                 <tr>
                     <td>17</td>
-                    <td>Pekerjaan Upgrading Gas Metering Konsumen PT. Fajar Surya Wisesa </td>
-                    <td>EPC</td>
-                    <td>Tegal Gede</td>
-                    <td>PT. Nuansa Indah Mane </td>
-                    <td>2020</td>
+                    <td>Pengadaan Material Regulator Rumah Tangga Proyek Pembangunan Jaringan Gas </td>
+                    <td>Pengadaan Barang</td>
+                    <td>Jakarta & Tangerang</td>
+                    <td>PT. PGAS Solution</td>
+                    <td>PT. Perusahaan Gas Negara Tbk</td>
+                    <td>2021</td>
                 </tr>
                 <tr class="active-row">
                     <td>18</td>
-                    <td>Pengadaan 22 Unit Stasiun Pengukur Pengalur (MRS) dan Pengkoreksi Volume Elektronik (EVC)</td>
-                    <td>Pengadaan Barang</td>
-                    <td>Jakarta</td>
+                    <td>Pengadaan Regulating Station, Regulator, Turbine dan Modifikasi M/RS Proyek Pembangunan Jaringan Gas Bumi </td>
+                    <td>Pengadan dan Instalasi </td>
+                    <td>Surabaya dan Siodarjo</td>
                     <td>PT. PGAS Solution</td>
-                    <td>2020</td>
+                    <td>Direktorat Jenderal Minyak dan Gas Bumi, Kementerian Energi dan Sumber Daya Mineral</td>
+                    <td>2021</td>
                 </tr>
                 <tr>
                     <td>19</td>
-                    <td>Pengadaan PRS, RSI, ESDV & RS</td>
+                    <td>Pengadaan Material Transition Fitting, Metering Regulating System (MRS) & Metering System (MS) dan Regulator </td>
                     <td>Pengadaan Barang</td>
-                    <td>Kota Langsa, Kab. Aceh Tamian dan Kab. Deli Serdang</td>
-                    <td>PT. Adhi Karya (Persero) Tbk</td>
-                    <td>2020</td>
+                    <td>Surabaya dan Kab. Sidoarjo  </td>
+                    <td>PT. PGAS Solution</td>
+                    <td>Direktorat Jenderal Minyak dan Gas Bumi, Kementerian Energi dan Sumber Daya Mineral</td>
+                    <td>2021</td>
                 </tr>
                 <tr class="active-row">
                     <td>20</td>
-                    <td>Pembangunan Jargas Rumah Tangga </td>
-                    <td>EPC</td>
-                    <td>Kutai Kartanegara dan Kota Samarinda </td>
-                    <td>DIrektorat Jenderal Minyak dan Gas Bumi </td>
-                    <td>2020</td>
+                    <td>Legalisasi dan Kalibrasi Master Meter Rotary G.65, Turbine G.400 & G.4000 Batam </td>
+                    <td>Jasa Lainnya </td>
+                    <td>Batam</td>
+                    <td>PT. PGAS Solution</td>
+                    <td>PT. Perusahaan Gas Negara Tbk</td>
+                    <td>2021</td>
                 </tr>
                 <tr>
                     <td>21</td>
-                    <td>Gas Receiving Station Cikarang Listrindo </td>
-                    <td>EPC</td>
-                    <td>Cikarang</td>
-                    <td>PT. Pratiwi Putri Sulung</td>
+                    <td>Pengadaan Barang TRZ03-K DN 250 10INCH qty 4 Unit </td>
+                    <td>Pengadaan Barang</td>
+                    <td>Belawan</td>
+                    <td>PT. Gearindo Tiga Utama</td>
+                    <td>PT. PJB Belawan</td>
                     <td>2020</td>
                 </tr>
                 <tr class="active-row">
                     <td>22</td>
-                    <td>MRS Rotary Meter G.40 </td>
+                    <td>Pengadaan 22 Unit Stassiun Pengukur Penyalur (MRS) dan Pengkoreksi Volume Elektronik (EVC) </td>
                     <td>Pengadaan Barang</td>
+                    <td>Jakarta Barat</td>
+                    <td>PT. PGAS Solution</td>
+                    <td>PT. Perusahaan Gas Negara Tbk</td>
+                    <td>2020</td>
+                </tr>
+                <tr>
+                    <td>23</td>
+                    <td>Upgrading Gas Metering Konsumen PT. Fajar Wisesa di SKG Tegal Gede Asset 3 Oil & Gas Transportation </td>
+                    <td>EPC</td>
+                    <td>Tegal Gede</td>
+                    <td>PT. Nuansa Indah Mane</td>
+                    <td>PT. Pertamina EP</td>
+                    <td>2020</td>
+                </tr>
+                <tr class="active-row">
+                    <td>24</td>
+                    <td>Pengadan PRS, RSI, ESDV & RS Proyek Pembangunan Jargas Rumah Tangga </td>
+                    <td>Pengadaan barang</td>
+                    <td>Kota Langsa, Kabupaten Aceh Tamian dan Kabupaten Deli Serdang</td>
+                    <td>PT. Adhi Karya (Persero) Tbk</td>
+                    <td>Direktorat Jenderal Minyak dan Gas Bumi, Kementerian Energi dan Sumber Daya Mineral</td>
+                    <td>2020</td>
+                </tr>
+                <tr>
+                    <td>25</td>
+                    <td>Pembangunan Jargas Rumah Tangga  (9.003SR)</td>
+                    <td>EPC</td>
+                    <td>Kabupaten Kutai Kartenegara dan Kota Samarinda</td>
+                    <td>Direktorat Jendral Minyak dan Gas Bumi</td>
+                    <td>Direktorat Jendral Minyak dan Gas Bumi</td>
+                    <td>2020</td>
+                </tr>
+                <tr class="active-row">
+                    <td>26</td>
+                    <td>Stasiun Penerimaan Gas  </td>
+                    <td>EPC</td>
+                    <td>Cikarang</td>
+                    <td>PT. Pratiwi Putri Sulung</td>
+                    <td>PT. Cikarang Listrindo Tbk</td>
+                    <td>2020</td>
+                </tr>
+                <tr>
+                    <td>27</td>
+                    <td>Pengadaan MRS Rotary Meter G.40  </td>
                     <td>Pengadaan Barang</td>
-                    <td>PT. Eka Pratama Cemerlang</td>
+                    <td>Bekasi </td>
+                    <td>PT. Eka Pratama CemerlangMane </td>
+                    <td>PT. Bayu Buana Gemilang </td>
+                    <td>2019</td>
+                </tr>
+                <tr class="active-row">
+                    <td>28</td>
+                    <td>Jasa Pengukuran, Pengoperasian dan Pemeliharaan Fasilitas Custody Flow Meter di PK-52 Kaltimra</td>
+                    <td>EPC</td>
+                    <td>Tanjung Batu </td>
+                    <td>PT. National Energy Solutions</td>
+                    <td>PT. PLN</td>
+                    <td>2019</td>
+                </tr>
+                <tr>
+                    <td>29</td>
+                    <td>Rectification Metering </td>
+                    <td>EPC</td>
+                    <td>Jawa Timur</td>
+                    <td>PT. Pratiwi Putri Sulung</td>
+                    <td>Ophir Indonesia (Sampang) Pty Ltd</td>
+                    <td>2019</td>
+                </tr>
+                <tr class="active-row">
+                    <td>30</td>
+                    <td>Pekerjaan Pengadaan Gas Metering Package Pembangunan Fasilitas Produksi Lapangan Bambu Besar </td>
+                    <td>EPC</td>
+                    <td>Karawang </td>
+                    <td>PT. Pratiwi Putri Sulung</td>
+                    <td>PT. Pertamina EP</td>
                     <td>2019</td>
                 </tr>
                 <!-- and so on... -->
