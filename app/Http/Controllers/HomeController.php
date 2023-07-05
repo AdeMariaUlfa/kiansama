@@ -35,6 +35,10 @@ class HomeController extends Controller
    {
     return view('investor-info');
    }
+   public function pemegangSaham()
+   {
+      return view('investor-saham');
+   }
    public function strukturPerusahaan()
    {
       return view('strukturPerusahaan');

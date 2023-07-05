@@ -100,7 +100,7 @@
                         <div class="dropdown-menu m-0">
                             <a href="/infoInvestor" class="dropdown-item" style="color:#b97d29;">Info Investor</a>
                             <a href="/profil-bisnis" class="dropdown-item" style="color:#b97d29;">Laporan Tahunan & Laporan Keuangan</a>
-                            <a href="/profil-struktur" class="dropdown-item" style="color:#b97d29;">Pemegang Saham</a>
+                            <a href="/pemegangSaham" class="dropdown-item" style="color:#b97d29;">Pemegang Saham</a>
                             <a href="/profil-komisaris" class="dropdown-item" style="color:#b97d29;">Rapat Umum Pemegang Saham</a>
                             <a href="/profil-komisaris" class="dropdown-item" style="color:#b97d29;">Keterbukaan Informasi</a>
                             <a href="/profil-komisaris" class="dropdown-item" style="color:#b97d29;">Ikhtisar Data Keuangan</a>
@@ -150,7 +150,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-8">
-                    <p>PT. KSM didirikan pada tahun 2018, perusahaan ini bergerak dalam bidang Perdagangan, Pembangunan, Perindustrian, Jasa, dan Transportasi. Saat ini fokus utamanya adalah pekerjaan konstruksi yang meliputi konstruksi pengolahan dan penyimpanan barang migas, instalasi migas, instalasi mekanikal, dan instalasi kelistrikan</p>
+                    <p>PT. KSM Tbk didirikan pada tahun 2018, perusahaan ini bergerak dalam bidang Perdagangan, Pembangunan, Perindustrian, Jasa, dan Transportasi. Saat ini fokus utamanya adalah pekerjaan konstruksi yang meliputi konstruksi pengolahan dan penyimpanan barang migas, instalasi migas, instalasi mekanikal, dan instalasi kelistrikan</p>
                 </div>
                 <div class="col-md-4">
                     <a class="btn btn-lg btn-dark btn-block" href="/kontak"> Hubungi Kami </a>
@@ -165,7 +165,7 @@
                 <div class="col-lg-10 col-md-6">
                     <div class="row gx-5">
                         <div class="col-lg-4 col-md-12 pt-5 mb-5">
-                            <img src="{{ asset('template/img/logo2.png') }}" alt=""><br><br>
+                            <img src="{{ asset('template/img/logonew-white.png') }}" alt=""><br><br>
                             <p> Bergerak dalam bidang Perdagangan, Pembangunan, Perindustrian, Jasa, dan Transportasi
                             </p>
                             <br>
