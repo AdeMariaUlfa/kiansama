@@ -29,6 +29,7 @@ Route::get('/profil-bisnis', function () {return view('bisnisKami');});
 Route::get('/profil-bisnis-epc', function () {return view('bisnisKami-epc');});
 Route::get('/profil-susunan', function () {return view('susunanPengurus');});
 Route::get('/profil-struktur', function () {return view('strukturPerusahaan');});
+Route::get('/profil-sertifikat', function () {return view('sertifikat');}); 
 
 Route::resource('/admin/berita',BeritaController::class);
 Route::get('/berita', [HomeController::class, 'berita'] );

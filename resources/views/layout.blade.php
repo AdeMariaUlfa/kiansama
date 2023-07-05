@@ -86,7 +86,7 @@
                             <a href="/profil-struktur" class="dropdown-item" style="color:#b97d29;">Struktur Perusahaan</a>
                             <a href="/profil-susunan" class="dropdown-item" style="color:#b97d29;">Susunan Pengurus</a>
                             <a href="/profil-bisnis" class="dropdown-item" style="color:#b97d29;">Bisnis</a>
-                            <a href="#" class="dropdown-item" style="color:#b97d29;">Sertifikat</a>
+                            <a href="/profil-sertifikat" class="dropdown-item" style="color:#b97d29;">Sertifikat</a>
                         </div>
                     </div>
                     <div class="nav-item dropdown">

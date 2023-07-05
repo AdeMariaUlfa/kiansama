@@ -19,6 +19,10 @@ class HomeController extends Controller
    {
       return view('bisnisKami-epc');
    }
+   public function sertifikat()
+   {
+      return view('sertifikat');
+   }
    public function susunanPengurus()
    {
       return view('susunanPengurus');
