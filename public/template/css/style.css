@@ -582,3 +582,11 @@ h6,
     font-weight: bold;
     color:#061429; 
 }
+
+.table-responsive{
+    width: 100%;
+    margin-bottom: 15px;
+    overflow-y: hidden;
+    -ms-overflow-style: -ms-autohiding-scrollbar;
+    border: 1px solid #ddd;
+}

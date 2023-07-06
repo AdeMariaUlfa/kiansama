@@ -37,7 +37,7 @@
                     
                     <div class="col-lg-4 col-md-12 mb-4 mb-lg-0">
                         <div class="bg-image hover-overlay ripple shadow-1-strong rounded" data-ripple-color="light">
-                            <img src="{{asset('image-projek/Konverter-Kit/IMG-20200831-WA0009-removebg-preview.png')}}" class="w-100" data-target="#exampleModal" data-toggle="modal" />
+                            <img src="{{asset('image-projek/Konverter-Kit/Konverter Kit Ergas ECK-300.png')}}" class="w-100" data-target="#exampleModal" data-toggle="modal" />
                             <h5 class="text-center">Konverter Kit</h5>
                         </div>
                     </div>

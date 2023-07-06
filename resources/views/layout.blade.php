@@ -99,7 +99,7 @@
                         <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown" style="color:#b97d29;">Investor</a>
                         <div class="dropdown-menu m-0">
                             <a href="/infoInvestor" class="dropdown-item" style="color:#b97d29;">Info Investor</a>
-                            <a href="/profil-bisnis" class="dropdown-item" style="color:#b97d29;">Laporan Tahunan & Laporan Keuangan</a>
+                            <a href="/investorLaporan" class="dropdown-item" style="color:#b97d29;">Laporan Tahunan & Laporan Keuangan</a>
                             <a href="/pemegangSaham" class="dropdown-item" style="color:#b97d29;">Pemegang Saham</a>
                             <a href="/profil-komisaris" class="dropdown-item" style="color:#b97d29;">Rapat Umum Pemegang Saham</a>
                             <a href="/profil-komisaris" class="dropdown-item" style="color:#b97d29;">Keterbukaan Informasi</a>

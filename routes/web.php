@@ -36,6 +36,7 @@ Route::get('/berita', [HomeController::class, 'berita'] );
 
 Route::get('/infoInvestor', function () {return view('investor-info');});
 Route::get('/pemegangSaham', function () {return view('investor-saham');});
+Route::get('/investorLaporan', function () {return view('investor-laporan');});
 Route::get('/projek', function () {return view('portofolio-projek');});
 Route::get('/kontak', function () {return view('kontakKami');});
 Route::get('/admin', function () {return view('admin.dashboard');});
