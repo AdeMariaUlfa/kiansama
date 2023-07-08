@@ -169,7 +169,7 @@
                             <p> Bergerak dalam bidang Perdagangan, Pembangunan, Perindustrian, Jasa, dan Transportasi
                             </p>
                             <br>
-                            <img src="{{ asset('template/img/logo-iso-2.png') }}" width="80%" alt="">
+                            <img src="{{ asset('template/img/iso.png') }}" width="80%" alt="">
                         </div>
                         <div class="col-lg-4 col-md-12 pt-5 mb-5">
                             <div class="section-title section-title-sm position-relative pb-3 mb-4">

@@ -75,7 +75,7 @@
                     </form>
                 </div>
                 <div class="col-lg-6 wow slideInUp" data-wow-delay="0.6s" style="visibility: visible; animation-delay: 0.6s; animation-name: slideInUp;">
-                    <iframe class="position-relative rounded w-100 h-100" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15862.513428348826!2d106.9518032!3d-6.3124557!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69928ce9b7d713%3A0xb5519f3ecbaff1ef!2sPT.%20Kian%20Santang!5e0!3m2!1sen!2sid!4v1685806517117!5m2!1sen!2sid" frameborder="0" style="min-height: 350px; border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3965.6313376503194!2d106.95204249999999!3d-6.312066399999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e6993b882884403%3A0xdce831ebad18c73f!2sPT%20Kian%20Santang%20Muliatama!5e0!3m2!1sen!2sid!4v1688715832632!5m2!1sen!2sid" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                 </div>
             </div>
         </div>
