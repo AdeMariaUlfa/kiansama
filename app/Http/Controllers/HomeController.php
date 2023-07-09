@@ -63,4 +63,8 @@ class HomeController extends Controller
    {
       return view('eng.home');
    }
+   public function profile()
+   {
+      return view('eng.profile');
+   }
 }

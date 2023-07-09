@@ -44,3 +44,4 @@ Route::get('/admin', function () {return view('admin.dashboard');});
 
 // link route english
 Route::get('/home', [HomeController::class, 'home'])->name('home');
+Route::get('/ourProfile', [HomeController::class, 'profile'])->name('profile');
