@@ -83,10 +83,10 @@
                         <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown" style="color:#b97d29;">About Us</a>
                         <div class="dropdown-menu m-0">
                             <a href="/ourProfile" class="dropdown-item" style="color:#b97d29;">Our Profile</a>
-                            <a href="/profil-struktur" class="dropdown-item" style="color:#b97d29;">Company Structure</a>
-                            <a href="/profil-susunan" class="dropdown-item" style="color:#b97d29;">Board of Management</a>
+                            <a href="/structure" class="dropdown-item" style="color:#b97d29;">Company Structure</a>
+                            <a href="/board" class="dropdown-item" style="color:#b97d29;">Board of Management</a>
                             <a href="/profil-bisnis" class="dropdown-item" style="color:#b97d29;">Business</a>
-                            <a href="/profil-sertifikat" class="dropdown-item" style="color:#b97d29;">Certificate</a>
+                            <a href="/certificate" class="dropdown-item" style="color:#b97d29;">Certificate</a>
                         </div>
                     </div>
                     <div class="nav-item dropdown">
@@ -98,9 +98,9 @@
                     <div class="nav-item dropdown">
                         <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown" style="color:#b97d29;">Investors</a>
                         <div class="dropdown-menu m-0">
-                            <a href="/infoInvestor" class="dropdown-item" style="color:#b97d29;">Investor Info</a>
+                            <a href="/investorInfo" class="dropdown-item" style="color:#b97d29;">Investor Info</a>
                             <a href="/investorLaporan" class="dropdown-item" style="color:#b97d29;">Annual Report & Financial Report</a>
-                            <a href="/pemegangSaham" class="dropdown-item" style="color:#b97d29;">Shareholders</a>
+                            <a href="/shareholders" class="dropdown-item" style="color:#b97d29;">Shareholders</a>
                             <a href="/profil-komisaris" class="dropdown-item" style="color:#b97d29;">General Meeting of Shareholders</a>
                             <a href="/profil-komisaris" class="dropdown-item" style="color:#b97d29;">Information Disclosure</a>
                             <a href="/profil-komisaris" class="dropdown-item" style="color:#b97d29;">Financial Data Overview</a>

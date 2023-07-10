@@ -45,3 +45,8 @@ Route::get('/admin', function () {return view('admin.dashboard');});
 // link route english
 Route::get('/home', [HomeController::class, 'home'])->name('home');
 Route::get('/ourProfile', [HomeController::class, 'profile'])->name('profile');
+Route::get('/structure', [HomeController::class, 'structure'])->name('structure');
+Route::get('/board', [HomeController::class, 'board'])->name('board');
+Route::get('/certificate', [HomeController::class, 'certificate'])->name('certificate');
+Route::get('/investorInfo', [HomeController::class, 'investorInfo'])->name('investorInfo');
+Route::get('/shareholders', [HomeController::class, 'shareholders'])->name('shareholders');

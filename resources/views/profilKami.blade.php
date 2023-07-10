@@ -27,7 +27,7 @@
                 </div>
                 <div class="col-lg-5" style="min-height: 500px;">
                     <div class="position-relative h-100">
-                        <img class="position-absolute w-100 h-100 rounded wow zoomIn" data-wow-delay="0.9s" src="http://127.0.0.1:8000/template/img/profil.png" style="object-fit: cover; visibility: visible; animation-delay: 0.9s; animation-name: zoomIn;">
+                        <img class="position-absolute w-100 h-100 rounded wow zoomIn" data-wow-delay="0.9s" src="{{ asset('template/img/profil.png') }}" style="object-fit: cover; visibility: visible; animation-delay: 0.9s; animation-name: zoomIn;">
                     </div>
                 </div>
             </div>

@@ -67,4 +67,24 @@ class HomeController extends Controller
    {
       return view('eng.profile');
    }
+   public function structure()
+   {
+      return view('eng.structure');
+   }
+   public function board()
+   {
+      return view('eng.board');
+   }
+   public function certificate()
+   {
+      return view('eng.certificate');
+   }
+   public function investorInfo()
+   {
+      return view('eng.investorInfo');
+   }
+   public function shareholders()
+   {
+      return view('eng.shareholders');
+   }
 }
