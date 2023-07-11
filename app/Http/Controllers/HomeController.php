@@ -19,6 +19,18 @@ class HomeController extends Controller
    {
       return view('bisnisKami-epc');
    }
+   public function bisnisKami_services()
+   {
+      return view('bisnisKami-services');
+   }
+   public function bisnisKami_trading()
+   {
+      return view('bisnisKami-trading');
+   }
+   public function bisnisKami_product()
+   {
+      return view('bisnisKami-product');
+   }
    public function sertifikat()
    {
       return view('sertifikat');
