@@ -91,6 +91,26 @@ class HomeController extends Controller
    {
       return view('eng.certificate');
    }
+   public function business()
+   {
+      return view('eng.business');
+   }
+   public function business_epc()
+   {
+      return view('eng.business-epc');
+   }
+   public function business_product()
+   {
+      return view('eng.business-product');
+   }
+   public function business_services()
+   {
+      return view('eng.business-services');
+   }
+   public function business_trading()
+   {
+      return view('eng.business-trading');
+   }
    public function investorInfo()
    {
       return view('eng.investorInfo');

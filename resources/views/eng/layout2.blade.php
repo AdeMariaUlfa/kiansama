@@ -85,7 +85,7 @@
                             <a href="/ourProfile" class="dropdown-item" style="color:#b97d29;">Our Profile</a>
                             <a href="/structure" class="dropdown-item" style="color:#b97d29;">Company Structure</a>
                             <a href="/board" class="dropdown-item" style="color:#b97d29;">Board of Management</a>
-                            <a href="/profil-bisnis" class="dropdown-item" style="color:#b97d29;">Business</a>
+                            <a href="/business" class="dropdown-item" style="color:#b97d29;">Business</a>
                             <a href="/certificate" class="dropdown-item" style="color:#b97d29;">Certificate</a>
                         </div>
                     </div>
