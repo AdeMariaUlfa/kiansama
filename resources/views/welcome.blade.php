@@ -2,34 +2,43 @@
 @section('content')
 <div id="header-carousel" class="carousel slide carousel-fade" data-bs-ride="carousel">
     <div class="carousel-inner">
-
         <div class="carousel-item">
-            <img class="w-100" src="{{ asset('template/img/home2.png') }}" alt="Image">
+            <img class="w-100" src="{{ asset('template/img/PRODUCT & MANUFACTURING.jpg') }}" alt="Image">
             <div class="carousel-caption d-flex flex-column align-items-center justify-content-center">
                 <div class="p-3" style="max-width: 900px;">
                     <h3 class="text-white mb-3 animated slideInDown">Selamat Datang Di</h3>
                     <h3 class="display-1 text-white animated zoomIn">PT KIAN SANTANG MULIATAMA Tbk</h3>
-                    <h5 class="text-white">- Konstruksi -</h5>
+                    <a href="/profil-bisnis-product"><h5 class="text-white">- Product & Manufacturing -</h5></a>
+                </div>
+            </div>
+        </div>
+          <div class="carousel-item">
+            <a><img class="w-100" src="{{ asset('template/img/service.png') }}" alt="Image">
+            <div class="carousel-caption d-flex flex-column align-items-center justify-content-center">
+                <div class="p-3" style="max-width: 900px;">
+                    <h3 class="text-white mb-3 animated slideInDown">Selamat Datang Di</h3>
+                    <h3 class="display-1 text-white animated zoomIn">PT KIAN SANTANG MULIATAMA Tbk</h3>
+                    <a href="/profil-bisnis-services"><h5 class="text-white">- Services -</h5></a>
                 </div>
             </div>
         </div>
         <div class="carousel-item">
-            <img class="w-100" src="{{ asset('template/img/home1.png') }}" alt="Image">
+            <a><img class="w-100" src="{{ asset('template/img/trading.png') }}" alt="Image">
             <div class="carousel-caption d-flex flex-column align-items-center justify-content-center">
                 <div class="p-3" style="max-width: 900px;">
                     <h3 class="text-white mb-3 animated slideInDown">Selamat Datang Di</h3>
                     <h3 class="display-1 text-white animated zoomIn">PT KIAN SANTANG MULIATAMA Tbk</h3>
-                    <h5 class="text-white">- Pelayanan -</h5>
+                    <a href="/profil-bisnis-trading"><h5 class="text-white">- Trading -</h5></a>
                 </div>
             </div>
         </div>
         <div class="carousel-item active">
-            <img class="w-100" src="{{ asset('template/img/beranda.jpg') }}" alt="Image">
+            <img class="w-100" src="{{ asset('template/img/epc.jpg') }}" alt="Image">
             <div class="carousel-caption d-flex flex-column align-items-center justify-content-center">
                 <div class="p-3" style="max-width: 900px;">
                     <h3 class="text-white mb-3 animated slideInDown">Selamat Datang Di</h3>
                     <h3 class="display-1 text-white animated zoomIn">PT KIAN SANTANG MULIATAMA Tbk</h3>
-                    <h5 class="text-white">- Perdagangan -</h5>
+                    <a href="/profil-bisnis-epc"><h5 class="text-white">- EPC -</h5></a>
                 </div>
             </div>
         </div>
@@ -47,37 +56,36 @@
 <div class="container-fluid facts py-5 pt-lg-0">
     <div class="container py-5 pt-lg-0">
         <div class="row gx-0">
-            <div class="col-lg-4 wow zoomIn" data-wow-delay="0.1s" style="visibility: visible; animation-delay: 0.1s; animation-name: zoomIn;">
-                <div class="bg-orange shadow d-flex align-items-center justify-content-center p-4" style="height: 150px;">
-                    <div class="bg-white d-flex align-items-center justify-content-center rounded mb-2" style="width: 60px; height: 60px;">
-                        <i class="fa fa-hands-helping text-orange"></i>
-                    </div>
-                    <div class="ps-3">
-                        <h5 class="text-white mb-0">PERDAGANGAN</h5>
-                        <!-- <h1 class="text-white mb-0">12345</h1> -->
-                    </div>
+            <div class="col wow zoomIn" data-wow-delay="0.1s" style="visibility: visible; animation-delay: 0.1s; animation-name: zoomIn;">
+                <div class="bg-light shadow d-flex p-4" style="width:250px; height: 350px;">
+                    <figure>
+                        <img src="{{ asset('image-bisnis/epc/epc.jpg') }}" style="width:200px; height: 250px; margin-bottom:20px;" alt="">
+                        <h5 class="text-orange mb-0 text-center">EPC</h5>
+                    </figure>
                 </div>
             </div>
-            <div class="col-lg-4 wow zoomIn" data-wow-delay="0.3s" style="visibility: visible; animation-delay: 0.3s; animation-name: zoomIn;">
-                <div class="bg-light shadow d-flex align-items-center justify-content-center p-4" style="height: 150px;">
-                    <div class="bg-orange d-flex align-items-center justify-content-center rounded mb-2" style="width: 60px; height: 60px;">
-                        <i class="fa fa-user-cog text-white"></i>
-                    </div>
-                    <div class="ps-3">
-                        <h5 class="text-orange mb-0">PELAYANAN</h5>
-                        <!-- <h1 class="mb-0" data-toggle="counter-up">12345</h1> -->
-                    </div>
+            <div class="col wow zoomIn" data-wow-delay="0.1s" style="visibility: visible; animation-delay: 0.1s; animation-name: zoomIn;">
+            <div class="bg-orange shadow d-flex p-4" style="width:250px; height: 350px;">
+                    <figure>
+                        <img src="{{ asset('image-bisnis/product/product.jpg') }}" style="width:200px; height: 250px;  margin-bottom:10px;" alt="">
+                        <h5 class="text-white mb-0 text-center">PRODUCT & MANUFACTURING</h5>
+                    </figure>
                 </div>
             </div>
-            <div class="col-lg-4 wow zoomIn" data-wow-delay="0.6s" style="visibility: visible; animation-delay: 0.6s; animation-name: zoomIn;">
-                <div class="bg-orange shadow d-flex align-items-center justify-content-center p-4" style="height: 150px;">
-                    <div class="bg-white d-flex align-items-center justify-content-center rounded mb-2" style="width: 60px; height: 60px;">
-                        <i class="fas fa-hard-hat text-orange"></i>
-                    </div>
-                    <div class="ps-3">
-                        <h5 class="text-white mb-0">KONSTRUKSI</h5>
-                        <!-- <h1 class="text-white mb-0" data-toggle="counter-up">12345</h1> -->
-                    </div>
+            <div class="col wow zoomIn" data-wow-delay="0.1s" style="visibility: visible; animation-delay: 0.1s; animation-name: zoomIn;">
+                <div class="bg-light shadow d-flex p-4" style="width:250px; height: 350px;">
+                    <figure>
+                        <img src="{{ asset('image-bisnis/services/3.jpeg') }}" style="width:200px; height: 250px;  margin-bottom:20px;" alt="">
+                        <h5 class="text-orange mb-0 text-center">SERVICES</h5>
+                    </figure>
+                </div>
+            </div>
+            <div class="col wow zoomIn" data-wow-delay="0.1s" style="visibility: visible; animation-delay: 0.1s; animation-name: zoomIn;">
+            <div class="bg-orange shadow d-flex p-4" style="width:250px; height: 350px;">
+                    <figure>
+                        <img src="{{ asset('image-bisnis/trading/TORMENE INDUSTRIALE.png') }}" style="width:200px; height: 250px;  margin-bottom:20px;" alt="">
+                        <h5 class="text-white mb-0 text-center">TRADING</h5>
+                    </figure>
                 </div>
             </div>
         </div>
@@ -95,11 +103,12 @@
                 <p class="mb-4">Memberikan solusi terbaik bagi mitra bisnis kami berdasarkan kompetensi, profesionalisme, kepercayaan, dan motivasi untuk memenuhi tuntutan mitra bisnis dan selalu mengutamakan hubungan jangka panjang dengan mitra bisnis dan pengguna akhir di seluruh Indonesia.</p>
                 <div class="row g-0 mb-3">
                     <div class="col-sm-6 wow zoomIn" data-wow-delay="0.2s" style="visibility: visible; animation-delay: 0.2s; animation-name: zoomIn;">
-                        <h5 class="mb-3"><i class="fa fa-check text-primary me-3"></i>Perdagangan</h5>
-                        <h5 class="mb-3"><i class="fa fa-check text-primary me-3"></i>Konstruksi</h5>
+                        <h5 class="mb-3"><i class="fa fa-check text-primary me-3"></i>EPC</h5>
+                        <h5 class="mb-3"><i class="fa fa-check text-primary me-3"></i>Product & Manufacturing</h5>
                     </div>
                     <div class="col-sm-6 wow zoomIn" data-wow-delay="0.4s" style="visibility: visible; animation-delay: 0.4s; animation-name: zoomIn;">
-                        <h5 class="mb-3"><i class="fa fa-check text-primary me-3"></i>Pelayanan</h5>
+                        <h5 class="mb-3"><i class="fa fa-check text-primary me-3"></i>Servis</h5>
+                        <h5 class="mb-3"><i class="fa fa-check text-primary me-3"></i>Trading</h5>
                     </div>
                 </div>
                 <div class="d-flex align-items-center mb-4 wow fadeIn" data-wow-delay="0.6s" style="visibility: visible; animation-delay: 0.6s; animation-name: fadeIn;">
@@ -111,7 +120,7 @@
                         <h4 class="text-primary mb-0">(021) 82748249</h4>
                     </div>
                 </div>
-                <a href="/profil" class="btn btn-dark py-3 px-5 mt-3 wow zoomIn" data-wow-delay="0.9s" style="visibility: visible; animation-delay: 0.9s; animation-name: zoomIn;">Baca Lebih Lanjut</a>
+                <!-- <a href="/profil" class="btn btn-dark py-3 px-5 mt-3 wow zoomIn" data-wow-delay="0.9s" style="visibility: visible; animation-delay: 0.9s; animation-name: zoomIn;">Baca Lebih Lanjut</a> -->
             </div>
             <div class="col-lg-5" style="min-height: 500px;">
                 <div class="position-relative h-100">
@@ -161,7 +170,7 @@
                     <div class="col-sm-6 wow zoomIn" data-wow-delay="0.4s" style="visibility: visible; animation-delay: 0.4s; animation-name: zoomIn;">
                         <h5 class="mb-3"><i class="fa fa-check text-primary me-3"></i>Pelayanan</h5>
                     </div> -->
-                    isi text
+                    <!-- isi text -->
                 </div>
             </div>
 
