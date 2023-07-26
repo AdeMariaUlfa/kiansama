@@ -26,7 +26,7 @@
                                 <i class="fa fa-cubes text-white"></i>
                             </div>
                         </div>
-                        <h4 class="d-flex justify-content-end">EPC</h4>
+                        <h4 class="d-flex justify-content-end"><a href="/profil-bisnis-epc">EPC</a></h4>
                         <p class="mb-0">KSM memiliki kemampuan melaksanakan pekerjaan <i>Engineering, Procurement, Construction,</i> utamanya di sektor gas industri dan <i>city gas</i>. </p>
                     </div>
                     <div class="col-12 wow zoomIn" data-wow-delay="0.6s" style="visibility: visible; animation-delay: 0.6s; animation-name: zoomIn;">
@@ -35,7 +35,7 @@
                                 <i class="fa fa-users-cog text-white"></i>
                             </div>
                         </div>
-                        <h4 class="d-flex justify-content-end">SERVICES</h4>
+                        <h4 class="d-flex justify-content-end"><a href="/profil-bisnis-services">SERVICES</a></h4>
                         <p class="mb-0">Meraih peluang pekerjaan kalibrasi (<i>wet cal</i>), repair gas equipment, testing & komisioning dari perusahaan-perusahaan <i>Oil & Gas</i>.</p>
                     </div>
                 </div>
@@ -53,7 +53,7 @@
                                 <i class="fas fa-box text-white"></i>
                             </div>
                         </div>
-                        <h4>PRODUCT & MANUFACTURING</h4>
+                        <h4><a href="/profil-bisnis-product">PRODUCT & MANUFACTURING</a></h4>
                         <p class="mb-0"><i>Converter kit</i> ABG & Ergas, Regulator & meter gas Rumah Tangga (Ergas), <i>transition fitting</i> (Kians), <i>pressure gauges, gas odorizing system, Metering & Regulating Station</i> (MRS), <i>Regulator Sector</i> (RS), <i>gas filter</i>.</p>
                     </div>
                     <div class="col-12 wow zoomIn" data-wow-delay="0.8s" style="visibility: visible; animation-delay: 0.8s; animation-name: zoomIn;">
@@ -62,7 +62,7 @@
                                 <i class="fa fa-hands-helping  text-white"></i>
                             </div>
                         </div>
-                        <h4>TRADING</h4>
+                        <h4><a href="/profil-bisnis-trading">TRADING</a></h4>
                         <p class="mb-0">Menyediakan berbagai macam peralatan dan sistem yang terkait dengan instalasi gas.</p>
                     </div>
                 </div>

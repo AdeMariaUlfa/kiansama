@@ -2,9 +2,13 @@
 @section('css')
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
 <style>
+<<<<<<< HEAD
     .galery {
+=======
+    /* img {
+>>>>>>> 0e1ec5a97069f035cd9457dcdb5e925cc825b698
         background-color: black;
-    }
+    } */
 
     .image:hover {
         opacity: 0.3;
@@ -80,7 +84,7 @@
     <div class="container py-4">
         <div class="section-title text-center position-relative pb-3 mb-5 mx-auto" style="max-width: 600px;">
             <h5 class="fw-bold text-primary text-uppercase">Daftar Pengalaman Perusahaan</h5>
-            <h1 class="mb-0">PT KIAN SANTANG MULIATAMA</h1>
+            <h1 class="mb-0">PT KIAN SANTANG MULIATAMA Tbk</h1>
         </div>
         <!-- Modal gallery -->
         <div class="row justify-content-center">

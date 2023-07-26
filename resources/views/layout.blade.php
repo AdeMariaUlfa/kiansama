@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="utf-8">
-    <title>PT KIAN SANTANG MULIATAMA</title>
+    <title>PT KIAN SANTANG MULIATAMA Tbk</title>
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
     <meta content="Free HTML Templates" name="keywords">
     <meta content="Free HTML Templates" name="description">
@@ -71,7 +71,7 @@
     <div class="container-fluid position-relative p-0">
         <nav class="navbar navbar-expand-lg navbar-dark px-5 py-3 py-lg-0" style="background:white;">
             <a href="{{ asset('template/index.html') }}" class="navbar-brand p-0">
-                <img src="{{ asset('template/img/logo4.png') }}" alt="Image">
+                <img src="{{ asset('template/img/logonew.png') }}" alt="Image">
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
                 <span class="fa fa-bars"></span>
@@ -86,7 +86,7 @@
                             <a href="/profil-struktur" class="dropdown-item" style="color:#b97d29;">Struktur Perusahaan</a>
                             <a href="/profil-susunan" class="dropdown-item" style="color:#b97d29;">Susunan Pengurus</a>
                             <a href="/profil-bisnis" class="dropdown-item" style="color:#b97d29;">Bisnis</a>
-                            <a href="#" class="dropdown-item" style="color:#b97d29;">Sertifikat</a>
+                            <a href="/profil-sertifikat" class="dropdown-item" style="color:#b97d29;">Sertifikat</a>
                         </div>
                     </div>
                     <div class="nav-item dropdown">
@@ -98,9 +98,9 @@
                     <div class="nav-item dropdown">
                         <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown" style="color:#b97d29;">Investor</a>
                         <div class="dropdown-menu m-0">
-                            <a href="/profil" class="dropdown-item" style="color:#b97d29;">Info Investor</a>
-                            <a href="/profil-bisnis" class="dropdown-item" style="color:#b97d29;">Laporan Tahunan & Laporan Keuangan</a>
-                            <a href="/profil-struktur" class="dropdown-item" style="color:#b97d29;">Pemegang Saham</a>
+                            <a href="/infoInvestor" class="dropdown-item" style="color:#b97d29;">Info Investor</a>
+                            <a href="/investorLaporan" class="dropdown-item" style="color:#b97d29;">Laporan Tahunan & Laporan Keuangan</a>
+                            <a href="/pemegangSaham" class="dropdown-item" style="color:#b97d29;">Pemegang Saham</a>
                             <a href="/profil-komisaris" class="dropdown-item" style="color:#b97d29;">Rapat Umum Pemegang Saham</a>
                             <a href="/profil-komisaris" class="dropdown-item" style="color:#b97d29;">Keterbukaan Informasi</a>
                             <a href="/profil-komisaris" class="dropdown-item" style="color:#b97d29;">Ikhtisar Data Keuangan</a>
@@ -150,7 +150,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-8">
-                    <p>PT. KSM didirikan pada tahun 2018, perusahaan ini bergerak dalam bidang Perdagangan, Pembangunan, Perindustrian, Jasa, dan Transportasi. Saat ini fokus utamanya adalah pekerjaan konstruksi yang meliputi konstruksi pengolahan dan penyimpanan barang migas, instalasi migas, instalasi mekanikal, dan instalasi kelistrikan</p>
+                    <p>PT. KSM Tbk didirikan pada tahun 2018, perusahaan ini bergerak dalam bidang Perdagangan, Pembangunan, Perindustrian, Jasa, dan Transportasi. Saat ini fokus utamanya adalah pekerjaan konstruksi yang meliputi konstruksi pengolahan dan penyimpanan barang migas, instalasi migas, instalasi mekanikal, dan instalasi kelistrikan</p>
                 </div>
                 <div class="col-md-4">
                     <a class="btn btn-lg btn-dark btn-block" href="/kontak"> Hubungi Kami </a>
@@ -165,11 +165,11 @@
                 <div class="col-lg-10 col-md-6">
                     <div class="row gx-5">
                         <div class="col-lg-4 col-md-12 pt-5 mb-5">
-                            <img src="{{ asset('template/img/logo2.png') }}" alt=""><br><br>
+                            <img src="{{ asset('template/img/logonew-white.png') }}" alt=""><br><br>
                             <p> Bergerak dalam bidang Perdagangan, Pembangunan, Perindustrian, Jasa, dan Transportasi
                             </p>
                             <br>
-                            <img src="{{ asset('template/img/logo-iso-2.png') }}" width="80%" alt="">
+                            <img src="{{ asset('template/img/iso.png') }}" width="80%" alt="">
                         </div>
                         <div class="col-lg-4 col-md-12 pt-5 mb-5">
                             <div class="section-title section-title-sm position-relative pb-3 mb-4">
@@ -220,7 +220,7 @@
         <div class="container text-center">
             <div class="row justify-content-end">
                 <div class="d-flex align-items-center justify-content-center" style="height: 75px;">
-                    <p class="mb-0">&copy; <a class="text-white border-bottom" href="#">Kian Santang Muliatama</a>. Seluruh hak cipta.
+                    <p class="mb-0">&copy; <a class="text-white border-bottom" href="#">Kian Santang Muliatama Tbk</a>. Seluruh hak cipta.
                     </p>
                 </div>
             </div>
