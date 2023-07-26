@@ -122,6 +122,12 @@
                                 <span class="hide-menu">Berita</span>
                             </a>
                         </li>
+                        <li class="sidebar-item">
+                            <a class="sidebar-link waves-effect waves-dark sidebar-link" href="{{route('portofolio.index')}}" aria-expanded="false">
+                                <i class="fa fa-globe" aria-hidden="true"></i>
+                                <span class="hide-menu">Portofolio</span>
+                            </a>
+                        </li>
 
 
                     </ul>
