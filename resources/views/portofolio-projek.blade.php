@@ -2,13 +2,9 @@
 @section('css')
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
 <style>
-<<<<<<< HEAD
     .galery {
-=======
-    /* img {
->>>>>>> 0e1ec5a97069f035cd9457dcdb5e925cc825b698
         background-color: black;
-    } */
+    } 
 
     .image:hover {
         opacity: 0.3;
@@ -121,7 +117,7 @@
 
                         @foreach($p->dokumentasi as $key => $val)
                         <div class="carousel-item {{$key == 0 ? 'active':''}}">
-                            <img class="d-block w-100" src="{{asset('file-dokumentasi/'.$val->dokumentasi)}}" style="object-fit:cover ;height: 600px ;" alt="First slide">
+                            <img class="d-block w-100 galery" src="{{asset('file-dokumentasi/'.$val->dokumentasi)}}" style="object-fit:cover ;height: 600px ;" alt="First slide">
                         </div>
                         @endforeach
                         <div class="carousel-caption text-left">
